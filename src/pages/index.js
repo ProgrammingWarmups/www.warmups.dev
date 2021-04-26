@@ -19,11 +19,14 @@ export default ({ data }) => {
             <Logo className={classes.logo} aria-label={siteMetadata.title} />
 
             <section>
-                <h1 className={classes.subtitle}> INSERT CATCHY TAG LINE HERE </h1>
+              <h1 className={classes.subtitle}>Warmups, <em>for Developers</em></h1>
                 <div className={classes.introduction}>
-                <p>
-                    This is a good place to write what your course is about!  Dinosaurs? Neural Networks? LSTM? How to do taxes and not get bored? Write it here!
-                </p>
+
+                <p> If you are like many developers, you may find it frustrating when you are starting to program
+                for the first time &mdash; or returning to your code after the weekend. 😉 Whether you are
+                procrastinating or overwhelmed by a task, <b>warmups.dev</b> can help you to review basic programming
+                skills and rev up your mind. Let's go! 🚀</p>
+
                 </div>
             </section>
 
