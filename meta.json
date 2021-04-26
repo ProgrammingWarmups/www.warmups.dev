@@ -1,11 +1,11 @@
 {
-    "courseId": "course-starter-python",
-    "title": "My cool online course",
-    "slogan": "A free online course",
+    "courseId": "warmups.dev",
+    "title": "warmups.dev",
+    "slogan": "Coding Warmups, for Developers",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat semper urna, in accumsan sapien dui ac mi. Pellentesque felis lorem, semper nec velit nec, consectetur placerat enim.",
     "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat semper urna.",
-    "siteUrl": "https://course-starter-python.netlify.com",
-    "twitter": "spacy_io",
+    "siteUrl": "https://www-warmups-dev.netlify.app/",
+    "twitter": "GregKapfhammer",
     "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
     "testTemplate": "from wasabi import Printer\n__msg__ = Printer()\n__solution__ = \"\"\"${solution}\"\"\"\n\n${solution}\n\n${test}\n\ntry:\n    test()\nexcept AssertionError as e:\n    __msg__.fail(e)",
     "juniper": {
@@ -15,11 +15,11 @@
         "kernelType": "python3",
         "debug": false
     },
-    "showProfileImage": true,
+    "showProfileImage": false,
     "footerLinks": [
-        { "text": "Website", "url": "https://spacy.io" },
-        { "text": "Source", "url": "https://github.com/ines/course-starter-python" },
-        { "text": "Built with ♥", "url": "https://github.com/ines/course-starter-python" }
+        { "text": "warmups.dev", "url": "https://warmups.dev" },
+        { "text": "source", "url": "https://github.com/gkapfham/www.warmups.dev" },
+        { "text": "built with ♥ and open source", "url": "https://github.com/gkapfham/www.warmups.dev" }
     ],
-    "theme": "#de7878"
+    "theme": "#4FC3F7"
 }
