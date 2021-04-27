@@ -34,7 +34,7 @@ Mean: 16
 
 - **Variables**: `numbers`, `s`, `N`, and `mean`
 - **Functions**: `sum`, `len`, and `print`
-- **Comments**: `create a list of numbers`
+- **Comments**: `# create a list of numbers`
 - When a developer runs this Python program, it produces output
 - Okay, try to answer these questions:
   - What is the purpose of a variable?
