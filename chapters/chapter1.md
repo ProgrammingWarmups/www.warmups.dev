@@ -1,8 +1,7 @@
 ---
-title: 'Chapter 1: Getting started'
+title: 'Warmup 1: How does a Python program execute?'
 description:
-  'This chapter will teach you about many cool things and introduce you to the
-  most important concepts of the course.'
+  'Build and apply a mental model about what happens when you run a Python program'
 prev: null
 next: /chapter2
 type: chapter
