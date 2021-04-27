@@ -1,13 +1,10 @@
-import json
-import os
-
-# This code will run relative to the root of the repo, so we can load files
-with open("exercises/bookquotes.json") as f:
-    DATA = json.loads(f.read())
-    print(f.name)
-
-# Print the first record in the DATA
-print(___[____])
-
-# Assign the length of DATA to some_var
-some_var = ___
+# create a list of numbers
+numbers = [_, _, _, _]
+# add the numbers together
+s = sum(numbers)
+# count the values in numbers
+N = len(numbers)
+# compute the arithmetic mean
+mean = _ / _
+# display the arithmetic mean
+print(f"Mean: {mean}")
