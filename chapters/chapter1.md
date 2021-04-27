@@ -42,19 +42,18 @@ Nope, comments are human-readable reminders of the code's behavior.
 
 </exercise>
 
-<exercise id="3" title="First steps">
+<exercise id="3" title="Modifying a Python Program">
 
-This is a code exercise. The content can be formatted in simple Markdown – so
-you can have **bold text**, `code` or [links](https://spacy.io) or lists, like
-the one for the instructions below.
-
-- These are instructions and they can have bullet points.
-- The code block below will look for the files `exc_01_03`, `solution_01_03` and
-  `test_01_03` in `/exercises`.
+- You can edit and run this program in your web browser! 💯
+- The first time you click "Run Code" it may take 60 seconds to run
+- Don't worry, every other run will be much faster
+- The program should produce the output `Mean: 5.0`
 
 <codeblock id="01_03">
 
-This is a hint.
+- Fill in the `_` in `numbers = [_, _, _, _]` to make a new list of values
+- Fill in the `_` in `mean = _ / _` to compute the arithmetic mean
+- Don't forget that the program must produce the output of `Mean: 20`
 
 </codeblock>
 
