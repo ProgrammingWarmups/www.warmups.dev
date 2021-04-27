@@ -2,38 +2,50 @@
 type: slides
 ---
 
-# Introduction
+# What happens when a Python program runs?
 
-Notes: Text at the end of a slide prefixed like this will be displayed as
-speaker notes on the side. Slides can be separated with a divider: ---.
+Notes: 👏 You're going exploring some basic constructs in the Python programming
+language and learn more about what happens when a developer runs a Python
+program. As you study these examples, look for source code segments that make
+sense and take a guess at what they do. Instead of getting overwhelmed when you
+encounter a technical concept or Python source code that looks confusing, make a
+note of why it looks strange and remember that you will understand it soon!
 
 ---
 
-# This is a slide
+# Calculating the arithmetic mean of a list of numbers
 
 ```python
-# Print something
-print("Hello world")
+# create a list of numbers
+numbers = [1, 3, 5, 7]
+# add the numbers together
+s = sum(numbers)
+# count the values in numbers
+N = len(numbers)
+# compute the arithmetic mean
+mean = s / N
+# display the arithmetic mean
+print(f"Mean: {mean}")
 ```
 
 ```out
-Hello world
+Mean: 16
 ```
 
-- Slides can have code, bullet points, tables and pretty much all other Markdown
-  elements.
-- This is another bullet point.
+- **Variables**: `numbers`, `s`, `N`, and `mean`
+- **Functions**: `sum`, `len`, and `print`
+- **Comments**: `create a list of numbers`
+- When a developer runs this Python program, it produces output
+- Okay, try to answer these questions:
+  - What is the purpose of a variable?
+  - What is the output produced by this program?
+  - What are the input(s), output(s), and behavior of functions like `sum`,
+  `len`, and `print`?
 
-<img src="profile.jpg" alt="This image is in /static" width="25%">
-
-Notes: Some more notes go here
+Notes: 🤩 This Python program calculates the arithmetic mean, or the average, of
+a list of numbers. Without getting caught up in the details, can you determine
+the purpose of each line of source code? Go ahead, say your guess out loud!
 
 ---
 
 # Let's practice!
-
-Notes: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique
-libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non
-commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat
-semper urna, in accumsan sapien dui ac mi. Pellentesque felis lorem, semper nec
-velit nec, consectetur placerat enim.
