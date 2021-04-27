@@ -7,4 +7,4 @@ N = len(numbers)
 # compute the arithmetic mean
 mean = _ / _
 # display the arithmetic mean
-print(f"Mean: {mean}")
+print(f"Mean: {____}")
