@@ -8,16 +8,50 @@ type: chapter
 id: 1
 ---
 
-<exercise id="1" title="Introduction" type="slides">
+<exercise id="1" title="What are the Parts of a Python Program?" type="slides">
 
-<slides source="chapter1_01_introduction">
+<slides source="chapter1_01_programparts">
 </slides>
 
 </exercise>
 
-<exercise id="2" title="Components of a Python program">
+<exercise id="2" title="Check: Parts of a Python program">
 
-Using the previous source code as an example, what can you find in a Python program?
+Using the example that calculated the arithmetic mean, what can exist in a Python program?
+
+<choice>
+
+<opt text="Variables that provide a non-executable reminder of the code's behavior">
+
+Nope, variables store values on behalf of the Python program.
+
+</opt>
+
+<opt text="Variables that store values used for the Python program's computation" correct="true">
+
+Yep, variables store values that can then be used in a computation.
+
+</opt>
+
+<opt text="Comments with values that the Python program displays in its output">
+
+Nope, comments are human-readable reminders of the code's behavior.
+
+</opt>
+</choice>
+
+</exercise>
+
+<exercise id="3" title="What Happens When a Python Program Runs?" type="slides">
+
+<slides source="chapter1_01_notionalmachine">
+</slides>
+
+</exercise>
+
+<exercise id="4" title="Check: Running a Python Program">
+
+Using the Python program that calculated the arithmetic mean, what can exist in a Python program?
 
 <choice>
 
@@ -42,7 +76,7 @@ Nope, comments are human-readable reminders of the code's behavior.
 
 </exercise>
 
-<exercise id="3" title="Modifying a Python Program">
+<exercise id="5" title="Modifying a Python Program">
 
 - You can edit and run this program in your web browser! 💯
 - The first time you click "Run Code" it may take 60 seconds to run
@@ -59,3 +93,4 @@ Nope, comments are human-readable reminders of the code's behavior.
 </codeblock>
 
 </exercise>
+
