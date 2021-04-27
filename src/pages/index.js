@@ -21,7 +21,7 @@ export default ({ data }) => {
       <section>
         <h1 className={classes.subtitle}>Warmups, <em>for Developers</em></h1>
         <div className={classes.introduction}>
-          <p> If you are like many developers, you may find it frustrating when you are starting to program for the first time &mdash; or returning to your code after the weekend. <span role="img" aria-label="wink">😉</span> Whether you are procrastinating or overwhelmed by a task, <Link variant="secondary" to="https:warmups.dev"> warmups.dev</Link> helps you to review basic programming skills and rev up your mind. Ready, set, go! <span role="img" aria-label="rocket">🚀</span> </p>
+          <p> If you are like many developers, you may find it frustrating when you are starting to program for the first time &mdash; or returning to your code after the weekend. <span role="img" aria-label="wink">😉</span> Whether you are procrastinating or overwhelmed by a task, <Link variant="secondary" to="https:warmups.dev"> warmups.dev</Link> helps you to master basic programming skills and rev up your mind. Ready, set, go! <span role="img" aria-label="rocket">🚀</span> </p>
         </div>
       </section>
 
