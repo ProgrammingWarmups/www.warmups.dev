@@ -1,11 +1,9 @@
 def test():
-    # Here we can either check objects created in the solution code, or the
-    # string value of the solution, available as __solution__. A helper for
-    # printing formatted messages is available as __msg__. See the testTemplate
-    # in the meta.json for details.
-
-    # If an assertion fails, the message will be displayed
-    assert "print(DATA[0])" in __solution__, "Are you printing the first record?"
-    assert some_var == len(DATA), "Are you getting the correct length?"
-
+    # if an assertion fails, the message will be displayed
+    # --> must calculate the arithmetic mean
+    assert "mean = s / N" in __solution__, "Are you calculating the arithmetic mean?"
+    assert mean == s / N, "Are you calculating the arithmetic mean?"
+    # --> must display the arithmetic mean
+    assert "{mean}" in __solution__, "Are you displaying the arithmetic mean?"
+    # display a congratulations for a correct solution
     __msg__.good("Well done!")
