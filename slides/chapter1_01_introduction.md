@@ -29,7 +29,7 @@ print(f"Mean: {mean}")
 ```
 
 ```out
-Mean: 16
+Mean: 4.0
 ```
 
 - **Variables**: `numbers`, `s`, `N`, and `mean`
