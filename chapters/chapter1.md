@@ -53,7 +53,8 @@ Nope, comments are human-readable reminders of the code's behavior.
 
 - Fill in the `_` in `numbers = [_, _, _, _]` to make a new list of values
 - Fill in the `_` in `mean = _ / _` to compute the arithmetic mean
-- Don't forget that the program must produce the output of `Mean: 20`
+- Fill in the `_` in `print(f"Mean: {____}")` to display the arithmetic mean
+- Don't forget that the program must produce the output of `Mean: 5.0`
 
 </codeblock>
 
