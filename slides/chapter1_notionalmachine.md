@@ -35,11 +35,11 @@ Mean: 4.0
 ```
 
 - Explore the [notional machine for Python](http://teachtogether.tech/en/#s:models-notional) that reflects what Python programs do when executed
-- The notation machine has twelve concepts, can you grasp the basics of each one?
-- **Notion 7**: When code is executed, Python steps through the instructions,
-doing what each one tells it to in turn.
-- **Notion 8**: Some instructions make Python read data, do calculations, and
-create new data.
+- The notational machine has twelve concepts, can you grasp the basics of each one? **Examples:**
+- **Notion 7**: "When code is executed, Python steps through the instructions,
+doing what each one tells it to in turn."
+- **Notion 8**: "Some instructions make Python read data, do calculations, and
+create new data."
 - `numbers = [2, 4, 6, 8]` creates a list that contains four numbers in it
 - `sum(numbers)` calls the `sum` function to add together the values in `numbers`
 - `s = sum(numbers)` stores the resulting sum in a new variable called `s`
@@ -57,5 +57,4 @@ detail the purpose of each line of the program's source code?
 
 Notes: ⏱  Before moving onto the fitness check, make sure that you can use the
 [notional machine for Python](http://teachtogether.tech/en/#s:models-notional)
-to explain each step in the execution of the Python program that calculates the
-arithmetic mean.
+to explain each step in the Python program that calculates the arithmetic mean.
