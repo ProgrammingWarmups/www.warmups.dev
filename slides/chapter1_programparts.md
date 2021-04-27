@@ -52,4 +52,4 @@ the purpose of each line of source code? Go ahead, say your guess out loud!
 
 Notes: ⏱  Before moving onto the fitness check, make sure that you have an
 intuitive understanding of variables, functions, and comments and how they
-worked in the Python program that calculated the arithmetic mean.
+worked in the Python program that calculates the arithmetic mean.
