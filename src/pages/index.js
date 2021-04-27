@@ -22,13 +22,13 @@ export default ({ data }) => {
         <h1 className={classes.subtitle}>Warmups, <em>for Developers</em></h1>
         <div className={classes.introduction}>
 
-          <p> If you are like many developers, you may find it frustrating when you are starting to program for
-          the first time &mdash; or returning to your code after the weekend. <span role="img"
-          aria-label="wink">😉</span> Whether you are procrastinating or overwhelmed by a task, <b>warmups.dev</b>
-        can help you to review basic programming skills and rev up your mind. Let's go! 🚀</p>
+          <p> If you are like many developers, you may find it frustrating when you are starting to program for the
+          first time &mdash; or returning to your code after the weekend. <span role="img" aria-label="wink">😉</span>
+          Whether you are procrastinating or overwhelmed by a task, <b>warmups.dev</b> can help you to review basic
+          programming skills and rev up your mind. Let's go! <span role="img" aria-label="rocket">🚀</span> </p>
 
-    </div>
-  </section>
+        </div>
+      </section>
 
   {chapters.map(({ slug, title, description }) => (
     <section key={slug} className={classes.chapter}>
