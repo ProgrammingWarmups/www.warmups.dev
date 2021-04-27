@@ -18,7 +18,6 @@
     "showProfileImage": false,
     "footerLinks": [
         { "text": "warmups.dev", "url": "https://warmups.dev" },
-        { "text": "source", "url": "https://github.com/gkapfham/www.warmups.dev" },
         { "text": "built with ♥ and open source", "url": "https://github.com/gkapfham/www.warmups.dev" }
     ],
     "theme": "#0288D1"
