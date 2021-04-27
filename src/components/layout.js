@@ -58,7 +58,7 @@ const Layout = ({ isHome, title, description, children }) => {
                                     <section className={classes.footerSection}>
                                       <H3><em>Wait</em>, what is this?</H3>
 
-                                      <p>Building on a framework developed by <Link variant="secondary" to="https://ines.io">Ines Montani</Link>, the <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> platform offers emerging and experienced developers the opportunity to practice programming in Python. Offering a variety of exercises that stretch your programming muscles, <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> leverages insights from educational research to help you to effectively master programming skills.</p>
+                                      <p>Building on a framework developed by <Link variant="secondary" to="https://ines.io">Ines Montani</Link>, the <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> platform offers emerging and experienced developers the opportunity to practice programming in Python. Offering a variety of exercises that stretch your programming muscles, <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> leverages insights from educational research to help you to effectively master valuable programming skills.</p>
 
                                     </section>
 
