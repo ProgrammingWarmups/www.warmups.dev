@@ -10,7 +10,7 @@ id: 1
 
 <exercise id="1" title="What are the Parts of a Python Program?" type="slides">
 
-<slides source="chapter1_01_programparts">
+<slides source="chapter1_programparts">
 </slides>
 
 </exercise>
@@ -44,7 +44,7 @@ Nope, comments are human-readable reminders of the code's behavior.
 
 <exercise id="3" title="What Happens When a Python Program Runs?" type="slides">
 
-<slides source="chapter1_01_notionalmachine">
+<slides source="chapter1_notionalmachine">
 </slides>
 
 </exercise>
