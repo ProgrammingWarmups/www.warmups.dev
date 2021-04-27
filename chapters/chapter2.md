@@ -1,8 +1,7 @@
 ---
-title: 'Chapter 2: More stuff'
+title: 'Warmup 2: How does a Python program store data and compute values?'
 description:
-  'This chapter will teach you even more stuff and help you learn some new
-  concepts.'
+  'Learn how to create and repair a Python program that performs a computation'
 prev: /chapter1
 next: null
 type: chapter
