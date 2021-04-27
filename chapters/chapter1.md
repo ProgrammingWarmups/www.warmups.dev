@@ -15,26 +15,27 @@ id: 1
 
 </exercise>
 
-<exercise id="2" title="Getting Started">
+<exercise id="2" title="Components of a Python program">
 
-Let's ask some questions about the slides. Whats the correct answer?
+Using the previous source code as an example, what can you find in a Python program?
 
 <choice>
-<opt text="Answer one">
 
-This is not the correct answer.
+<opt text="Variables that provide a human-readable reminder of the code's behavior">
 
-</opt>
-
-<opt text="Answer two" correct="true">
-
-Good job!
+Nope, variables store values on behalf of the Python program.
 
 </opt>
 
-<opt text="Answer three">
+<opt text="Variables that store values used for the Python program's computation" correct="true">
 
-This is not correct either.
+Yep, variables store values that can then be used in a computation.
+
+</opt>
+
+<opt text="Comments with values that the Python program displays in its output">
+
+Nope, comments are human-readable reminders of the code's behavior.
 
 </opt>
 </choice>
