@@ -37,7 +37,7 @@ const Layout = ({ isHome, title, description, children }) => {
                             {!isHome && (
                                 <h1 className={classes.logo}>
                                     <Link hidden to="/">
-                                        <Logo width={150} height={54} aria-label={meta.title} />
+                                        <Logo width={150} height={75} aria-label={meta.title} />
                                     </Link>
                                 </h1>
                             )}
@@ -56,12 +56,12 @@ const Layout = ({ isHome, title, description, children }) => {
                             <footer className={classes.footer}>
                                 <div className={classes.footerContent}>
                                     <section className={classes.footerSection}>
-                                        <H3>About this course</H3>
+                                      <H3>What is <a href = "https://www.warmups.dev">warmups.dev</a>?</H3>
                                         <p>{meta.description}</p>
                                     </section>
 
                                     <section className={classes.footerSection}>
-                                        <H3>About me</H3>
+                                        <H3>Who created this site?</H3>
                                         {meta.showProfileImage && (
                                             <img
                                                 src="/profile.jpg"
