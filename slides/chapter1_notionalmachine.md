@@ -34,26 +34,28 @@ print(f"Mean: {mean}")
 Mean: 4.0
 ```
 
-- **Variables**: `numbers`, `s`, `N`, and `mean`
-- **Functions**: `sum`, `len`, and `print`
-- **Comments**: `# create a list of numbers`
-- When a developer runs this Python program, it produces output
-- Okay, try to answer these questions:
-  - What is the purpose of a variable?
-  - What is the output produced by this program?
-  - What are the input(s), output(s), and behavior of functions like `sum`,
-  `len`, and `print`?
+- Explore the [notional machine for Python](http://teachtogether.tech/en/#s:models-notional) that reflects what Python programs do when executed
+- The notation machine has twelve concepts, can you grasp the basics of each one?
+- **Notion 7**: When code is executed, Python steps through the instructions,
+doing what each one tells it to in turn.
+- **Notion 8**: Some instructions make Python read data, do calculations, and
+create new data.
+- `numbers = [2, 4, 6, 8]` creates a list that contains four numbers in it
+- `sum(numbers)` calls the `sum` function to add together the values in `numbers`
+- `s = sum(numbers)` stores the resulting sum in a new variable called `s`
+- `mean = s / N` divides `s` by `N` and stores the result in a new variable
+called `mean`
 
-Notes: 🤩 This Python program calculates the arithmetic mean, or the average, of
-a list of numbers. Without getting caught up in the details, can you determine
-the purpose of each line of source code? Go ahead, say your guess out loud!
+Notes: 🤩 As before, this Python program calculates the arithmetic mean of a
+list of numbers. Leveraging the terms that you read in the [notional machine for
+Python](http://teachtogether.tech/en/#s:models-notional), can you explain in
+detail the purpose of each line of the program's source code?
 
 ---
 
-# Let's practice!
+# Ready to gauge your understanding?
 
-Notes: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique
-libero at est congue, sed vestibulum tortor laoreet. Aenean egestas massa non
-commodo consequat. Curabitur faucibus, sapien vitae euismod imperdiet, arcu erat
-semper urna, in accumsan sapien dui ac mi. Pellentesque felis lorem, semper nec
-velit nec, consectetur placerat enim.
+Notes: ⏱  Before moving onto the fitness check, make sure that you can use the
+[notional machine for Python](http://teachtogether.tech/en/#s:models-notional)
+to explain each step in the execution of the Python program that calculates the
+arithmetic mean.
