@@ -1,5 +1,5 @@
 ---
-title: 'Warmup 1: How does a Python program execute?'
+title: 'Warmup 1: What happens when a Python program runs?'
 description:
   'Build and apply a mental model about what happens when you run a Python program'
 prev: null
