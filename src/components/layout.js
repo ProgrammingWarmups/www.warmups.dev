@@ -57,7 +57,9 @@ const Layout = ({ isHome, title, description, children }) => {
                                 <div className={classes.footerContent}>
                                     <section className={classes.footerSection}>
                                       <H3><em>Wait</em>, what is this?</H3>
-                                        <p>{meta.description}</p>
+
+                                      <p>Building on a framework developed by <Link variant="secondary" to="https://ines.io">Ines Montani</Link>, the <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> platform offers emerging and experienced developers the opportunity to practice programming in Python. Offering a variety of exercises that stretch your programming muscles, <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> leverages insights from educational research to help you to effectively master valuable programming skills.</p>
+
                                     </section>
 
                                     <section className={classes.footerSection}>
@@ -69,7 +71,9 @@ const Layout = ({ isHome, title, description, children }) => {
                                                 className={classes.profile}
                                             />
                                         )}
-                                        <p>{meta.bio}</p>
+
+                                            <p>An innovator in technical areas such as software engineering and software testing, <Link variant="secondary" to="https://www.gregorykapfhammer.com">Gregory M. Kapfhammer</Link> develops and maintains <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link>. No stranger to being stuck on a programming problem, Gregory hopes that this platform will help learners to explore the field of software development. Have a question or comment for Gregory? Send him <Link variant="secondary" to="https://www.gregorykapfhammer.com/contact/">feedback</Link>!</p>
+
                                     </section>
 
                                     {meta.footerLinks && (
