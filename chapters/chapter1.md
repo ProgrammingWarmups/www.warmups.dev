@@ -8,6 +8,8 @@ type: chapter
 id: 1
 ---
 
+<!-- EXERCISE -->
+
 <exercise id="1" title="What are Some Parts of Python Program?">
 
 - Variables: `numbers`, `s`, `N`, and `mean`
@@ -29,6 +31,8 @@ id: 1
 </codeblock>
 
 </exercise>
+
+<!-- EXERCISE -->
 
 <exercise id="2" title="Check: Parts of a Python program">
 
