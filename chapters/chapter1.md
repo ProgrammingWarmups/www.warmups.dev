@@ -61,12 +61,16 @@ Nope, comments are human-readable reminders of the code's behavior.
 
 </exercise>
 
+<!-- EXERCISE -->
+
 <exercise id="3" title="What Happens When a Python Program Runs?" type="slides">
 
 <slides source="chapter1_notionalmachine">
 </slides>
 
 </exercise>
+
+<!-- EXERCISE -->
 
 <exercise id="4" title="Check: Running a Python Program">
 
@@ -96,6 +100,8 @@ Yep, that is the correct equation for the arithmetic mean.
 
 </exercise>
 
+<!-- EXERCISE -->
+
 <exercise id="5" title="Modifying a Python Program">
 
 - You can edit and run this program in your web browser
@@ -114,4 +120,3 @@ Yep, that is the correct equation for the arithmetic mean.
 </codeblock>
 
 </exercise>
-
