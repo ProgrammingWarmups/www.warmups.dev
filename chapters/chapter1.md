@@ -1,7 +1,7 @@
 ---
 title: 'Warmup 1: What happens when a Python program runs?'
 description:
-  'Build and apply a mental model about what happens when you run a Python program'
+ 'Build and apply a mental model about what happens when you run a Python program'
 prev: null
 next: /chapter2
 type: chapter
@@ -51,37 +51,39 @@ Nope, comments are human-readable reminders of the code's behavior.
 
 <exercise id="4" title="Check: Running a Python Program">
 
-Using the Python program that calculated the arithmetic mean, what can exist in a Python program?
+Using the Python program that calculated the arithmetic mean, what happens when the program runs?
 
 <choice>
 
-<opt text="Variables that provide a human-readable reminder of the code's behavior">
+<opt text="It calculates the arithmetic mean by running <code>N / s</code> and storing it in <code>mean</code>">
 
-Nope, variables store values on behalf of the Python program.
-
-</opt>
-
-<opt text="Variables that store values used for the Python program's computation" correct="true">
-
-Yep, variables store values that can then be used in a computation.
+Nope, that is not the correct equation for the arithmetic mean.
 
 </opt>
 
-<opt text="Comments with values that the Python program displays in its output">
+<opt text="It calculates the arithmetic by running <code>s \ n</code> and storing it in <code>mean</code>">
 
-Nope, comments are human-readable reminders of the code's behavior.
+Nope, the Python program does not have a variable called `n`
 
 </opt>
+
+<opt text="It calculates the arithmetic by running <code>s / N</code> and storing it in <code>mean</code>" correct="true">
+
+Yep, that is the correct equation for the arithmetic mean.
+
+</opt>
+
 </choice>
 
 </exercise>
 
 <exercise id="5" title="Modifying a Python Program">
 
-- You can edit and run this program in your web browser! 💯
+- You can edit and run this program in your web browser
 - The first time you click "Run Code" it may take 60 seconds to run
 - Don't worry, every other run will be much faster
 - The program should produce the output `Mean: 5.0`
+- Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <codeblock id="01_03">
 
