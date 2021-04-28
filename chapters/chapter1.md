@@ -8,10 +8,25 @@ type: chapter
 id: 1
 ---
 
-<exercise id="1" title="What are the Parts of a Python Program?" type="slides">
+<exercise id="1" title="What are Some Parts of Python Program?">
 
-<slides source="chapter1_programparts">
-</slides>
+- Variables: `numbers`, `s`, `N`, and `mean`
+- Functions: `sum`, `len`, and `print`
+- Comments: `# create a list of numbers`
+- Can you find these parts of the Python program?
+- What do you think is the purpose of these parts?
+- Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
+
+<codeblock id="01_01">
+
+- Fill in the `_` to record the program's output
+- Answer these questions as you study this program:
+  - What is the purpose of a variable?
+  - What is the output produced by this program?
+  - What are the input(s), output(s), and behavior of functions like `sum`,
+  `len`, and `print`?
+
+</codeblock>
 
 </exercise>
 
@@ -85,7 +100,7 @@ Yep, that is the correct equation for the arithmetic mean.
 - The program should produce the output `Mean: 5.0`
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
-<codeblock id="01_01">
+<codeblock id="01_05">
 
 - Fill in the `_` in `numbers = [_, _, _, _]` to make a new list of values
 - Fill in the `_` in `mean = _ / _` to compute the arithmetic mean
