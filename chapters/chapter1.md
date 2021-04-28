@@ -85,7 +85,7 @@ Yep, that is the correct equation for the arithmetic mean.
 - The program should produce the output `Mean: 5.0`
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
-<codeblock id="01_03">
+<codeblock id="01_01">
 
 - Fill in the `_` in `numbers = [_, _, _, _]` to make a new list of values
 - Fill in the `_` in `mean = _ / _` to compute the arithmetic mean
