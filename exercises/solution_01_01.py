@@ -8,3 +8,5 @@ N = len(numbers)
 mean = s / N
 # display the arithmetic mean
 print(f"Mean: {mean}")
+# DONE: type the predicted output as a comment
+# Mean: 5.0

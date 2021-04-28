@@ -1,10 +1,12 @@
 # create a list of numbers
-numbers = [_, _, _, _]
+numbers = [2, 4, 6, 8]
 # add the numbers together
 s = sum(numbers)
 # count the values in numbers
 N = len(numbers)
 # compute the arithmetic mean
-mean = _ / _
+mean = s / N
 # display the arithmetic mean
-print(f"Mean: {____}")
+print(f"Mean: {mean}")
+# TODO: type the predicted output as a comment
+# ____: ___
