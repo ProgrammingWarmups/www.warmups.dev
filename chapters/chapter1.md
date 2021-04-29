@@ -109,30 +109,42 @@ create new data."
 
 </exercise>
 
-
 <!-- EXERCISE -->
 
 <exercise id="4" title="Check: Running a Python Program">
 
-Using the Python program that calculated the arithmetic mean, what happens when the program runs?
+```python
+# create a list of numbers
+numbers = [2, 4, 6, 8]
+# add the numbers together
+s = sum(numbers)
+# count the values in numbers
+N = len(numbers)
+# compute the arithmetic mean
+mean = s / N
+# display the arithmetic mean
+print(f"Mean: {mean}")
+```
+
+Using this program as an example, what happens when its statements are run?
 
 <choice>
 
 <opt text="It calculates the arithmetic mean by running <code>N / s</code> and storing it in <code>mean</code>">
 
-Nope, that is not the correct equation for the arithmetic mean.
+No, that is not the correct equation for the arithmetic mean.
 
 </opt>
 
-<opt text="It calculates the arithmetic by running <code>s \ n</code> and storing it in <code>mean</code>">
+<opt text="It calculates the arithmetic mean by running <code>s / n</code> and storing it in <code>mean</code>">
 
-Nope, the Python program does not have a variable called `n`
+No, the Python program does not have a variable called `n`
 
 </opt>
 
 <opt text="It calculates the arithmetic by running <code>s / N</code> and storing it in <code>mean</code>" correct="true">
 
-Yep, that is the correct equation for the arithmetic mean.
+Yes, that is the correct equation for the arithmetic mean.
 
 </opt>
 
