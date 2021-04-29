@@ -39,7 +39,20 @@ id: 1
 
 <exercise id="2" title="Check: Parts of a Python Program">
 
-Using the example that calculated the arithmetic mean, what can exist in a Python program?
+```python
+# create a list of numbers
+numbers = [2, 4, 6, 8]
+# add the numbers together
+s = sum(numbers)
+# count the values in numbers
+N = len(numbers)
+# compute the arithmetic mean
+mean = s / N
+# display the arithmetic mean
+print(f"Mean: {mean}")
+```
+
+Using this Python program that calculates the arithmetic mean, what can exist in a Python program?
 
 <choice>
 
