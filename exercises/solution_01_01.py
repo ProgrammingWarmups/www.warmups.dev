@@ -1,5 +1,3 @@
-from rich import print
-print("Hello, [bold magenta]World[/bold magenta]!", ":vampire:", locals())
 # create a list of numbers
 numbers = [2, 4, 6, 8]
 # add the numbers together
