@@ -1,7 +1,7 @@
 def test():
     # if an assertion fails, the message will be displayed
     # --> must calculate the arithmetic mean as 4.0
-    assert mean == 4.0, "Are you correctly calculating the arithmetic mean?"
+    assert mean == 5.0, "Are you correctly calculating the arithmetic mean?"
     # --> must use the correct equation for calculating arithmetic mean
     assert "s / N" in __solution__, "Are you correctly calculating the arithmetic mean?"
     # --> must display the arithmetic mean
