@@ -1,1 +1,4 @@
 wasabi>=0.2.1,<1.1.0
+rich==10.1.0; python_version >= "3.6" and python_version < "4.0" \
+    --hash=sha256:60cd6d6ea697a1704f2057e791e3062b506b5c74a6e2ad2ced71eccb37557259 \
+    --hash=sha256:8f05431091601888c50341697cfc421dc398ce37b12bca0237388ef9c7e2c9e9
