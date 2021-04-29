@@ -12,12 +12,14 @@ id: 1
 
 <exercise id="1" title="What are Some Parts of Python Program?">
 
-- Variables: `numbers`, `s`, `N`, and `mean`
-- Functions: `sum`, `len`, and `print`
-- Comments: `# create a list of numbers`
-- Can you find these parts of the Python program?
+- Can you find these parts a Python program?
+  - Variables: `numbers`, `s`, `N`, and `mean`
+  - Functions: `sum`, `len`, and `print`
+  - Comments: `# create a list of numbers`
 - What do you think is the purpose of these parts?
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
+
+<hr>
 
 <codeblock id="01_01">
 
@@ -34,7 +36,7 @@ id: 1
 
 <!-- EXERCISE -->
 
-<exercise id="2" title="Check: Parts of a Python program">
+<exercise id="2" title="Check: Parts of a Python Program">
 
 Using the example that calculated the arithmetic mean, what can exist in a Python program?
 
@@ -63,12 +65,36 @@ Nope, comments are human-readable reminders of the code's behavior.
 
 <!-- EXERCISE -->
 
-<exercise id="3" title="What Happens When a Python Program Runs?" type="slides">
+<exercise id="3" title="What Happens When a Python Program Runs?">
 
-<slides source="chapter1_notionalmachine">
-</slides>
+- A [notional machine for Python](http://teachtogether.tech/en/#s:models-notional) explains what Python programs do when they are run
+- The notational machine has twelve concepts. Can you grasp the basics of each one?
+- Excerpts of three of the twelve notions about Python programs:
+  - **Notion 5**: "Lists, sets, and other collections store references to other data rather ..."
+  - **Notion 7**: "When code is executed, Python steps through the instructions, doing ..."
+  - **Notion 8**: "Some instructions make Python read data, do calculations, and
+create new data."
+- Descriptions of the behavior of lines in this Python program:
+  - `numbers = [2, 4, 6, 8]` creates a list that contains four numbers in it
+  - `s = sum(numbers)` stores the output of `sum` in a new variable called `s`
+  - `mean = s / N` divides `s` by `N` and stores the result in a new variable called `mean`
+- Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
+
+<hr>
+
+<codeblock id="01_03">
+
+- Fill in the `_` to record the program's output
+- Answer these questions as you study this program:
+  - What is the purpose of a variable?
+  - What is the output produced by this program?
+  - What are the input(s), output(s), and behavior of functions like `sum`,
+  `len`, and `print`?
+
+</codeblock>
 
 </exercise>
+
 
 <!-- EXERCISE -->
 
@@ -102,7 +128,7 @@ Yep, that is the correct equation for the arithmetic mean.
 
 <!-- EXERCISE -->
 
-<exercise id="5" title="Modifying a Python Program">
+<exercise id="5" title="Improving a Python Program">
 
 - You can edit and run this program in your web browser
 - The first time you click "Run Code" it may take 60 seconds to run
