@@ -154,20 +154,22 @@ Yes, that is the correct equation for the arithmetic mean.
 
 <!-- EXERCISE -->
 
-<exercise id="5" title="Improving a Python Program">
+<exercise id="5" title="Modifying a Python Program">
 
-- You can edit and run this program in your web browser
-- The first time you click "Run Code" it may take 60 seconds to run
-- Don't worry, every other run will be much faster
-- The program should produce the output `Mean: 5.0`
+- Complete the tasks near the `TODO` marker, removing the `TODO` when finished!
+  - Ensure that the program produces the output `Mean: 4.0` by adding values to `numbers`
+  - Add the correct equation for calculation the arithmetic mean
+  - Use the correct `print` statement to display the arithmetic mean
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
+
+<hr>
 
 <codeblock id="01_05">
 
 - Fill in the `_` in `numbers = [_, _, _, _]` to make a new list of values
 - Fill in the `_` in `mean = _ / _` to compute the arithmetic mean
 - Fill in the `_` in `print(f"Mean: {____}")` to display the arithmetic mean
-- Don't forget that the program must produce the output of `Mean: 5.0`
+- Don't forget that the program must produce the output of `Mean: 4.0`
 
 </codeblock>
 
