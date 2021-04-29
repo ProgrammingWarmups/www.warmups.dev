@@ -16,7 +16,8 @@ id: 1
   - Variables: `numbers`, `s`, `N`, and `mean`
   - Functions: `sum`, `len`, and `print`
   - Comments: `# create a list of numbers`
-- What do you think is the purpose of these parts?
+- What do you think is the purpose of these program parts?
+- Complete the task near the `TODO` marker, removing the `TODO` when finished!
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
@@ -25,8 +26,8 @@ id: 1
 
 - Fill in the `_` to record the program's output
 - Answer these questions as you study this program:
-  - What is the purpose of a variable?
   - What is the output produced by this program?
+  - What is the purpose of a variable, function, or comment?
   - What are the input(s), output(s), and behavior of functions like `sum`,
   `len`, and `print`?
 
