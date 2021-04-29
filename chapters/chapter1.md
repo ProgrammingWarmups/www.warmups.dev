@@ -25,7 +25,7 @@ id: 1
 <codeblock id="01_01">
 
 - Fill in the `_` to record the program's output
-- Answer these questions as you study this program:
+- Answer these questions as you study this Python program:
   - What is the output produced by this program?
   - What is the purpose of a variable, function, or comment?
   - What are the input(s), output(s), and behavior of functions like `sum`,
