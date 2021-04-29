@@ -52,19 +52,19 @@ mean = s / N
 print(f"Mean: {mean}")
 ```
 
-Using this Python program that calculates the arithmetic mean, what can exist in a Python program?
+Using this program as an example, what constructs are evident in a Python program?
 
 <choice>
 
 <opt text="Variables that provide a non-executable reminder of the code's behavior">
 
-Nope, variables store values on behalf of the Python program.
+No, variables store values on behalf of the Python program.
 
 </opt>
 
 <opt text="Variables that store values used for the Python program's computation" correct="true">
 
-Yep, variables store values that can then be used in a computation.
+Yes, variables store values that can then be used in a computation.
 
 </opt>
 
