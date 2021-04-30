@@ -1,2 +1,4 @@
 wasabi>=0.2.1,<1.1.0
 rich==10.1.0
+pyinstrument==3.4.1
+pyinstrument-cext==0.2.4
