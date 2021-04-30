@@ -1,6 +1,6 @@
 <p align="center">
-<b>
 <img src = "static/icon.png" width="250" height="250">
+<b>
 Programming warmups, for developers
 </b>
 </p>
