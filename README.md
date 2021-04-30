@@ -8,7 +8,7 @@ Programming warmups, for developers
 
 # www.warmups.dev
 
-![](../../workflows/build/badge.svg) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gkapfham/www.warmups.dev/binder)
+![](../../workflows/build/badge.svg) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gkapfham/www.warmups.dev/binder) [![Netlify Status](https://api.netlify.com/api/v1/badges/0a36441a-791b-40d0-a582-256dffd69514/deploy-status)](https://app.netlify.com/sites/warmups/deploys)
 
 ## Introduction
 
