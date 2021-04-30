@@ -8,5 +8,5 @@ FROM node:10
 WORKDIR /app
 COPY ./package*.json ./
 RUN mkdir node_modules
-RUN npm install --g gatsby-cli 
+RUN npm install --g gatsby-cli
 RUN npm install
