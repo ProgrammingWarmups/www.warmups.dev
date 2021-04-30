@@ -1,7 +1,6 @@
-![Image of Logo](static/icon.png)
-
 <p align="center">
 <b>
+<img src = "static/icon.png" width="250" height="250">
 Programming warmups, for developers
 </b>
 </p>
