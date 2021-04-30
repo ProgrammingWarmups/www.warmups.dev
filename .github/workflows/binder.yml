@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: s-weigand/trigger-mybinder-build@v1
         with:
-          target-repo: gkapfham/www.warmups.dev
+          target-repo: gkapfham/www.warmups.dev/binder
