@@ -1,6 +1,9 @@
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
+// note that the file is called chapter.js internally but
+// all of the files are now called warmup1.md, etc. and
+// these are the slugs that will appear in the deployed site
 const chapterTemplate = path.resolve('src/templates/chapter.js')
 
 function replacePath(pagePath) {
