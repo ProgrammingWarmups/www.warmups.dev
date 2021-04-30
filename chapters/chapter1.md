@@ -126,25 +126,25 @@ mean = s / N
 print(f"Mean: {mean}")
 ```
 
-Using this program as an example, what happens when its statements are run?
+Using this program as an example, what is the purpose of the statement `s = sum(numbers)`?
 
 <choice>
 
-<opt text="It calculates the arithmetic mean by running <code>N / s</code> and storing it in <code>mean</code>">
+<opt text="It adds together the values in <code>numbers</code> and stores them in the variable <code>s</code>" correct="true">
 
-No, that is not the correct equation for the arithmetic mean.
-
-</opt>
-
-<opt text="It calculates the arithmetic mean by running <code>s / n</code> and storing it in <code>mean</code>">
-
-No, the Python program does not have a variable called `n`
+Yes, the `sum` functions adds together 2, 4, 6, and 8 and stores 20 in the variable `s`.
 
 </opt>
 
-<opt text="It calculates the arithmetic by running <code>s / N</code> and storing it in <code>mean</code>" correct="true">
+<opt text="It calculates the mean of the values in <code>numbers</code> and stores it in the variable <code>mean</code>">
 
-Yes, that is the correct equation for the arithmetic mean.
+No, this line of source code does not calculate the arithmetic mean.
+
+</opt>
+
+<opt text="It calculates the number of values in <code>numbers</code> and stores it in the variable <code>N</code>">
+
+No, this line of source code does not calculate the number of values in the list.
 
 </opt>
 
@@ -172,5 +172,48 @@ Yes, that is the correct equation for the arithmetic mean.
 - Don't forget that the program must produce the output of `Mean: 4.0`
 
 </codeblock>
+
+</exercise>
+
+<!-- EXERCISE -->
+
+<exercise id="6" title="Check: Modifying a Python Program">
+
+```python
+# create a list of numbers
+numbers = [1, 3, 5, 7]
+# add the numbers together
+s = sum(numbers)
+# count the values in numbers
+N = len(numbers)
+# compute the arithmetic mean
+mean = s / N
+# display the arithmetic mean
+print(f"Mean: {mean}")
+```
+
+Using this program as an example, what happens when its statements are run?
+
+<choice>
+
+<opt text="It calculates the arithmetic mean by running <code>N / s</code> and storing it in <code>mean</code>">
+
+No, that is not the correct equation for the arithmetic mean.
+
+</opt>
+
+<opt text="It calculates the arithmetic mean by running <code>s / n</code> and storing it in <code>mean</code>">
+
+No, the Python program does not have a variable called `n`
+
+</opt>
+
+<opt text="It calculates the arithmetic by running <code>s / N</code> and storing it in <code>mean</code>" correct="true">
+
+Yes, that is the correct equation for the arithmetic mean.
+
+</opt>
+
+</choice>
 
 </exercise>
