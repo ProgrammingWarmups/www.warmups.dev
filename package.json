@@ -1,9 +1,9 @@
 {
-    "name": "course-starter-python",
+    "name": "www.warmups.dev",
     "private": true,
-    "description": "Starter package to build interactive Python courses",
+    "description": "Programming warmups, for developers",
     "version": "0.0.1",
-    "author": "Ines Montani <ines@explosion.ai>",
+    "author": "Gregory M. Kapfhammer <gkapfham@allegheny.edu> and Ines Montani <ines@explosion.ai>",
     "dependencies": {
         "@illinois/react-use-local-storage": "^1.1.0",
         "@jupyterlab/outputarea": "^0.19.1",
