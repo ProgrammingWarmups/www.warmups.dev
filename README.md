@@ -36,11 +36,13 @@ npm run dev                # Run the development server
 npm run build              # Build the entire site
 ```
 
-## Setting up Binder
+## Setup for and Use of Binder
 
 The [`requirements.txt`](binder/requirements.txt) in the repository defines the
 packages that are installed when building it with Binder. You can specify the
 binder settings like repo, branch and kernel type in the `"juniper"` section of
 the `meta.json`. You can run the very first build via the interface on
 the [Binder website](https://mybinder.org), as this gives you a detailed build
-log and feedback on whether everything worked as expected.
+log and feedback on whether everything worked as expected. Importantly, a push
+to the `binder` branch of this repository will automatically build and deploy a
+Binder image for use with the deployed version of the web site.
