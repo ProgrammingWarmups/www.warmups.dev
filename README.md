@@ -38,13 +38,9 @@ npm run build              # Build the entire site
 The [`requirements.txt`](binder/requirements.txt) in the repository defines the
 packages that are installed when building it with Binder. You can specify the
 binder settings like repo, branch and kernel type in the `"juniper"` section of
-the `meta.json`. I'd recommend running the very first build via the interface on
+the `meta.json`. You can run the very first build via the interface on
 the [Binder website](https://mybinder.org), as this gives you a detailed build
-log and feedback on whether everything worked as expected. Enter your repository
-URL, click "launch" and wait for it to install the dependencies and build the
-image.
-
-![Binder](https://user-images.githubusercontent.com/13643239/39412757-a518d416-4c21-11e8-9dad-8b4cc14737bc.png)
+log and feedback on whether everything worked as expected.
 
 ## Adding Tests
 
