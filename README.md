@@ -14,11 +14,14 @@ Programming warmups, for developers
 
 Based on the [course framework](https://github.com/ines/spacy-course) that [Ines
 Montani](https://ines.io/) developed for her [spaCy
-course](https://course.spacy.io). The front-end is powered by
-[Gatsby](http://gatsbyjs.org/) and [Reveal.js](https://revealjs.com) and the
-back-end code execution uses [Binder](https://mybinder.org). This web site will
-only work correctly if it has a build with [Binder](https://mybinder.org) for
-the current version of the `binder/requirements.txt` file.
+course](https://course.spacy.io), this repository contains the source code for
+the [www.warmups.dev](https://www.warmups.dev/) platform that offers developers
+the opportunity to master basic programming skills and rev up their minds. The
+front-end is powered by [Gatsby](http://gatsbyjs.org/) and
+[Reveal.js](https://revealjs.com) and the back-end code execution uses
+[Binder](https://mybinder.org). This web site will only work correctly if it has
+a build with [Binder](https://mybinder.org) for the current version of the
+`binder/requirements.txt` file.
 
 ## Running the Site
 
