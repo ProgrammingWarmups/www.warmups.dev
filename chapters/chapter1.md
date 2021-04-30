@@ -1,7 +1,7 @@
 ---
 title: 'Warmup 1: What happens when a Python program runs?'
 description:
- 'Build and apply a mental model about what happens when you run a Python program'
+ 'Create and use a mental model about what happens when you run a Python program'
 prev: null
 next: /chapter2
 type: chapter
