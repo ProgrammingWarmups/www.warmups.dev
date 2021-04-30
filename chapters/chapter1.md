@@ -154,7 +154,7 @@ No, this line of source code does not calculate the number of values in the list
 
 <!-- EXERCISE -->
 
-<exercise id="5" title="Modifying a Python Program">
+<exercise id="5" title="How do Code Changes Influence at Python Program?">
 
 - Complete the tasks near the `TODO` marker, removing the `TODO` when finished!
   - Ensure that the program produces the output `Mean: 4.0` by adding values to `numbers`
