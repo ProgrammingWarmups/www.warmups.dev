@@ -1,4 +1,10 @@
-![Image of Logo](static/social.jpg)
+![Image of Logo](static/icon.png)
+
+<p align="center">
+<b>
+Programming warmups, for developers
+</b>
+</p>
 
 ![](../../workflows/build/badge.svg)
 
