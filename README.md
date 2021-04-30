@@ -8,7 +8,7 @@ Programming warmups, for developers
 
 # www.warmups.dev
 
-![](../../workflows/build/badge.svg)
+![](../../workflows/build/badge.svg) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gkapfham/www.warmups.dev/binder)
 
 ## Introduction
 
