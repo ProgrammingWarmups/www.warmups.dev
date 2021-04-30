@@ -69,3 +69,238 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# Compiled source #
+###################
+*.class
+*.o
+*.so
+
+# Android #
+###########
+*.apk
+*.ap_
+*.dex
+local.properties
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# LaTeX #
+#########
+*.aux
+*.dvi
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.pdf
+*.ps
+*.tex~
+*.toc
+*_minted*
+
+# Bibliography aux files (bibtex/biblatex/biber) #
+##################################################
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+## Build tool auxiliary files #
+###############################
+*.fdb_latexmk
+*.synctex.gz
+*.pdfsync
+*.synctex.gz(busy)
+
+# Algorithms #
+##############
+*.alg
+*.loa
+
+# Theorems #
+############
+*.thm
+
+# Beamer #
+##########
+*.nav
+*.snm
+*.vrb
+
+# Glossaries #
+##############
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+
+# Hyperref #
+############
+*.brf
+
+# Listings #
+############
+*.lol
+
+# Makeidx #
+###########
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# Minitoc #
+###########
+*.maf
+*.mtc
+*.mtc0
+
+# Minted #
+##########
+*.pyg
+
+# Nomencl #
+###########
+*.nlo
+
+# Todonotes #
+#############
+*.tdo
+
+# Xindy #
+#########
+*.xdy
+
+# Vim #
+#######
+*.project.vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Java #
+########
+*.ear
+*.jar
+*.war
+*.ant_targets
+
+# Gradle #
+##########
+.gradle
+gradle
+/build
+/buildSrc/build
+/subprojects/*/build
+/subprojects/docs/src/samples/*/*/build
+/subprojects/internal-android-performance-testing/build-android-libs
+
+# Python #
+##########
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+include/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+*.mo
+*.pot
+*.log
+local_settings.py
+instance/
+.webassets-cache
+.scrapy
+docs/_build/
+target/
+.python-version
+celerybeat-schedule
+.env
+.venv/
+venv/
+ENV/
+bin/
+share/
+lib64
+pip-selfcheck.json
+pyvenv.cfg
+
+# R #
+#####
+*-Ex.R
+*.RData
+*.Rdata
+*.Rhistory
+*.Rincr_history
+
+# Ctags #
+#########
+tags
+.tags
+tags.lock
+tags.temp
+tags.tmp
+
+# Haskell #
+###########
+.stack-work
+
+# Z shell #
+###########
+*.zwc
+
+# Jekyll #
+##########
+.jekyll-cache
+*.jekyll-metadata
+
+# Extra files #
+###############
+*.xmi
+*.sync
