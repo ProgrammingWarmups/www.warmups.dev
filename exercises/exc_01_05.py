@@ -8,3 +8,5 @@ N = len(numbers)
 mean = _ / _
 # TODO: display the arithmetic mean
 print(f"Mean: {____}")
+# The program should output:
+# Mean: 4.0
