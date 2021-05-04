@@ -177,7 +177,7 @@ No, this line of source code does not calculate the number of values in the list
 
 <!-- EXERCISE -->
 
-<exercise id="6" title="Check: Modifying a Python Program">
+<exercise id="6" title="Check: Modifying a Program's Source Code">
 
 ```python
 # create a list of numbers
@@ -192,7 +192,7 @@ mean = s / N
 print(f"Mean: {mean}")
 ```
 
-Using this program as an example, what happens when its statements are run?
+What happens when the statements of this program are run?
 
 <choice>
 
