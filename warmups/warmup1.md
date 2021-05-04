@@ -204,13 +204,13 @@ No, that is not the correct equation for the arithmetic mean.
 
 <opt text="It calculates the arithmetic mean by running <code>s / n</code> and storing it in <code>mean</code>">
 
-No, the Python program does not have a variable called `n`
+No, the program's source code does not have a variable called `n`
 
 </opt>
 
 <opt text="It calculates the arithmetic by running <code>s / N</code> and storing it in <code>mean</code>" correct="true">
 
-Yes, that is the correct equation for the arithmetic mean.
+Yes, that is the correct description of this program's behavior.
 
 </opt>
 
