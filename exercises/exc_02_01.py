@@ -19,3 +19,7 @@ numbers_two = [2, 4, 6, 8]
 # calculate the mean
 numbers_two_mean = mean(numbers_two)
 print(f"Mean: {numbers_two_mean}")
+
+# TODO: fill in the program's output
+# Mean: 4.0
+# Mean: 5.0
