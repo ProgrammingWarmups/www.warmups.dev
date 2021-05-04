@@ -22,7 +22,8 @@ export default ({ data }) => {
         <h1 className={classes.subtitle}>Programming Warmups, <em>for Developers</em></h1>
         <div className={classes.introduction}>
           <p> If you are like many developers, you may find it frustrating when you start to program for the first time &mdash; or when you return to programming after the weekend. <span role="img" aria-label="wink">😉</span> Stop procrastinating or feeling overwhelmed and use <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> to master programming skills and rev up your mind. You only need your web browser!</p>
-
+        </div>
+        <div className={classes.continuation}>
           <p> Although <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> uses the Python programming language, each exercise explores the concepts shared by many languages and environments. A warmup poses a question that a developer can intuitively answer upon completion of every one of its steps. Find a question that you want to answer and get started! <span role="img" aria-label="rocket">🚀</span></p>
         </div>
       </section>
