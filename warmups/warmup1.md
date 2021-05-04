@@ -17,7 +17,7 @@ id: 1
   - Functions: `sum`, `len`, and `print`
   - Comments: `# create a list of numbers`
 - What do you think is the purpose of these program parts?
-- Complete the task near the `TODO` marker, removing the `TODO` when finished!
+- Complete the task near the `TODO` marker, removing the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
@@ -92,7 +92,7 @@ create new data."
   - `numbers = [2, 4, 6, 8]` creates a list that contains four numbers in it
   - `s = sum(numbers)` stores the output of `sum` in a new variable called `s`
   - `mean = s / N` divides `s` by `N` and stores the result in a new variable called `mean`
-- Complete the tasks indicated by the `TODO` marker, removing the `TODO` when finished!
+- Complete the tasks indicated by the `TODO` marker, removing the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
@@ -160,7 +160,7 @@ No, this line of source code does not calculate the number of values in the list
   - Produces the output `Mean: 4.0` by adding suitable values to `numbers`
   - Uses the correct equation for calculating the arithmetic mean
   - Uses the correct `print` statement to display the arithmetic mean
-- Complete the tasks indicated by each `TODO` marker, removing the `TODO` when finished!
+- Complete the tasks indicated by each `TODO` marker, removing the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
