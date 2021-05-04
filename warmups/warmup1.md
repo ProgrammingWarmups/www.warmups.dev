@@ -10,7 +10,7 @@ id: 1
 
 <!-- EXERCISE -->
 
-<exercise id="1" title="What are Some Parts of Python Program?">
+<exercise id="1" title="Parts of a Program">
 
 - Can you find these parts a Python program?
   - Variables: `numbers`, `s`, `N`, and `mean`
@@ -37,7 +37,7 @@ id: 1
 
 <!-- EXERCISE -->
 
-<exercise id="2" title="Check: Parts of a Python Program">
+<exercise id="2" title="Check: Parts of a Program">
 
 ```python
 # create a list of numbers
