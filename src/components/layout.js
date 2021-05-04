@@ -58,7 +58,7 @@ const Layout = ({ isHome, title, description, children }) => {
                                     <section className={classes.footerSection}>
                                       <H3><em>Wait</em>, what is this?</H3>
 
-                                      <p>Building on a framework developed by <Link variant="secondary" to="https://ines.io">Ines Montani</Link>, the <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> platform offers emerging and experienced developers the opportunity to practice programming in Python. Offering a variety of exercises that stretch your programming muscles, <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> leverages insights from educational research to help you to master programming.</p>
+                                      <p>Building on a framework developed by <Link variant="secondary" to="https://ines.io">Ines Montani</Link>, the <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> platform offers emerging and experienced developers the opportunity to practice programming in Python. Offering a variety of exercises that stretch your programming muscles, <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> helps you to master programming.</p>
 
                                     </section>
 
@@ -72,7 +72,8 @@ const Layout = ({ isHome, title, description, children }) => {
                                             />
                                         )}
 
-                                            <p>An innovator in technical areas like software testing, <Link variant="secondary" to="https://www.gregorykapfhammer.com">Gregory M. Kapfhammer</Link> develops and maintains <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link>. No stranger to being stuck on a programming problem, Gregory hopes that this platform will help learners better explore the field of software development. Have a question or comment about this platform? Send Gregory some <Link variant="secondary" to="https://www.gregorykapfhammer.com/contact/">feedback</Link>!</p>
+                                        <p>An innovator in technical areas like software testing, <Link variant="secondary" to="https://www.gregorykapfhammer.com">Gregory M. Kapfhammer</Link> develops and maintains <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link>. No stranger to being stuck on a programming problem, Gregory hopes that <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> will help learners use their web browser to master programming skills.</p>
+
                                     </section>
 
                                     {meta.footerLinks && (
