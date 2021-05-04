@@ -58,17 +58,17 @@ What constructs are evident in this program?
 
 <opt text="Variables that provide a non-executable reminder of the code's behavior">
 
-No, variables store values on behalf of the Python program.
+No, variables store values on behalf of the program.
 
 </opt>
 
-<opt text="Variables that store values used for the Python program's computation" correct="true">
+<opt text="Variables that store values used for the program's computation" correct="true">
 
 Yes, variables store values that can then be used in a computation.
 
 </opt>
 
-<opt text="Comments with values that the Python program displays in its output">
+<opt text="Comments with values that the program displays in its output">
 
 Nope, comments are human-readable reminders of the code's behavior.
 
@@ -79,7 +79,7 @@ Nope, comments are human-readable reminders of the code's behavior.
 
 <!-- EXERCISE -->
 
-<exercise id="3" title="What Happens When a Python Program Runs?">
+<exercise id="3" title="Running a Program">
 
 - A [notional machine for Python](http://teachtogether.tech/en/#s:models-notional) explains what Python programs do when they are run
 - The notational machine has twelve concepts. Can you grasp the basics of each one?
