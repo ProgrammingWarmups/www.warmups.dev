@@ -9,3 +9,5 @@ N = sum(numbers)
 mean = s / N
 # display the arithmetic mean
 print(f"Mean: {mean}")
+# The program should output:
+# Mean: 5.0
