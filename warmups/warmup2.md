@@ -13,7 +13,10 @@ id: 2
 <exercise id="1" title="Creating a Function">
 
 - Using the following source code, can you find these parts of a program?
-  - User-defined function: `mean`
+  - User-defined function:
+      - Name: `mean`
+      - Input: `numbers`
+      - Output: `mean`
   - Lists: `numbers_one` and `numbers_two`
   - Python-defined functions: `sum`, `len`, and `print`
 - What do you think is the purpose of the user-defined function called `mean`?
