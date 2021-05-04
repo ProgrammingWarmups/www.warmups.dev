@@ -92,16 +92,16 @@ create new data."
   - `numbers = [2, 4, 6, 8]` creates a list that contains four numbers in it
   - `s = sum(numbers)` stores the output of `sum` in a new variable called `s`
   - `mean = s / N` divides `s` by `N` and stores the result in a new variable called `mean`
-- Complete the task near the `TODO` marker, removing the `TODO` when finished!
+- Complete the tasks indicated by the `TODO` marker, removing the `TODO` when finished!
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
 
 <codeblock id="01_03">
 
-- Fix the mistakes in the program so that it outputs `Mean: 4.0`
+- Fix the mistakes in the program so that it outputs `Mean: 5.0`
 - Answer these questions as you study this program:
-  - What is the purpose the `len` and `sum` functions?
+  - What is the purpose of the `len` and `sum` functions?
   - What values should the variables `s` and `N` contain?
   - Why don't developers keep `TODO` markers in source code?
 
