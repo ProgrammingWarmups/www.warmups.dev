@@ -111,7 +111,7 @@ create new data."
 
 <!-- EXERCISE -->
 
-<exercise id="4" title="Check: Running a Python Program">
+<exercise id="4" title="Check: Running a Program">
 
 ```python
 # create a list of numbers
@@ -126,7 +126,7 @@ mean = s / N
 print(f"Mean: {mean}")
 ```
 
-Using this program as an example, what is the purpose of the statement `s = sum(numbers)`?
+What is the purpose of the statement `s = sum(numbers)` in this program?
 
 <choice>
 
