@@ -217,3 +217,34 @@ Yes, that is the correct description of this program's behavior.
 </choice>
 
 </exercise>
+
+<!-- EXERCISE -->
+
+<exercise id="7" title="Stretch: What Happens When a Program Runs?">
+
+```python
+# create a list of numbers
+numbers = [1, 3, 5, 7]
+# add the numbers together
+s = sum(numbers)
+# count the values in numbers
+N = len(numbers)
+# compute the arithmetic mean
+mean = s / N
+# display the arithmetic mean
+print(f"Mean: {mean}")
+```
+
+- This source code segment illustrates the following parts of a program:
+  - Variables like `numbers`, `s`, `N`, and `mean` store values of computations
+  - Functions like `sum`, `len`, and `print` accept an input and produce an output
+  - Comments like `# create a list of numbers` aid in understanding the program
+- A [notional machine for Python](http://teachtogether.tech/en/#s:models-notional) explains what programs do when they are run, such as:
+  - Each line of the source code is executed in sequence, performing the specified action
+  - The line `numbers = [1, 3, 5, 7]` creates a list that contains the numbers 1, 3, 5, and 7
+  - The `sum` functions adds together the values in `numbers` and stores 16 in the variable `s`.
+- A developer can modify the source code of a program to change its behavior of fix a problem
+
+- Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
+
+</exercise>
