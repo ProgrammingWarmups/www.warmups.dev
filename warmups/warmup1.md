@@ -81,7 +81,7 @@ Nope, comments are human-readable reminders of the code's behavior.
 
 <exercise id="3" title="Running a Program">
 
-- A [notional machine for Python](http://teachtogether.tech/en/#s:models-notional) explains what Python programs do when they are run
+- A [notional machine for Python](http://teachtogether.tech/en/#s:models-notional) explains what programs do when they are run
 - The notational machine has twelve concepts. Can you grasp the basics of each one?
 - Excerpts of three of the twelve notions about Python programs:
   - **Notion 5**: "Lists, sets, and other collections store references to other data rather ..."
