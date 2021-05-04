@@ -154,11 +154,11 @@ No, this line of source code does not calculate the number of values in the list
 
 <!-- EXERCISE -->
 
-<exercise id="5" title="How do Code Changes Influence at Python Program?">
+<exercise id="5" title="Modifying a Program's Source Code">
 
-- Complete the tasks near the `TODO` marker, removing the `TODO` when finished!
+- Complete the tasks indicated by each `TODO` marker, removing the `TODO` when finished!
   - Ensure that the program produces the output `Mean: 4.0` by adding values to `numbers`
-  - Add the correct equation for calculation the arithmetic mean
+  - Add the correct equation for calculating the arithmetic mean
   - Use the correct `print` statement to display the arithmetic mean
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
