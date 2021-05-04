@@ -156,10 +156,11 @@ No, this line of source code does not calculate the number of values in the list
 
 <exercise id="5" title="Modifying a Program's Source Code">
 
+- Modify the program's source code so that it:
+  - Produces the output `Mean: 4.0` by adding suitable values to `numbers`
+  - Uses the correct equation for calculating the arithmetic mean
+  - Uses the correct `print` statement to display the arithmetic mean
 - Complete the tasks indicated by each `TODO` marker, removing the `TODO` when finished!
-  - Ensure that the program produces the output `Mean: 4.0` by adding values to `numbers`
-  - Add the correct equation for calculating the arithmetic mean
-  - Use the correct `print` statement to display the arithmetic mean
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
