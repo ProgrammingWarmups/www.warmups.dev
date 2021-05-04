@@ -244,8 +244,7 @@ print(f"Mean: {mean}")
   - Each line of the source code is executed in sequence, performing the specified action
   - The line `numbers = [1, 3, 5, 7]` creates a list that contains the numbers 1, 3, 5, and 7
   - The `sum` functions adds together the values in `numbers` and stores 16 in the variable `s`.
-- A developer can modify the source code of a program to change its behavior of fix a problem
-
+- A developer can modify the source code of a program to change its behavior or fix a problem
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 </exercise>
