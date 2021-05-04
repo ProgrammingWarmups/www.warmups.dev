@@ -12,7 +12,7 @@ id: 1
 
 <exercise id="1" title="Parts of a Program">
 
-- Can you find these parts a Python program?
+- Using the following source code, can you find these parts of a program?
   - Variables: `numbers`, `s`, `N`, and `mean`
   - Functions: `sum`, `len`, and `print`
   - Comments: `# create a list of numbers`
