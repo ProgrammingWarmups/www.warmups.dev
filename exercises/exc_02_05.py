@@ -13,9 +13,12 @@ def mean(numbers):
 
 # create a list of numbers
 numbers_one = [1, 3, 5, 7]
+# display a message and a magnifying glass emoji
 print("Inspecting the list! :mag:")
+# inspect the list of numbers
 inspect(numbers_one, methods=True)
-# calculate the mean
+# display a message and a rocket emoji
 print("Computing the mean! :rocket:")
+# calculate the mean and display it
 numbers_one_mean = mean(numbers_one)
 print(f"Mean: {numbers_one_mean}")
