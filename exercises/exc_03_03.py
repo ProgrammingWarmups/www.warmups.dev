@@ -10,21 +10,25 @@ def read(file_name):
     return file_text
 
 def display(lines):
-    # create a newline separator for text
+    # there are lines of text, so display them
     if len(lines) != 0:
         comma = "\n"
         lines_display = comma.join(map(str, lines))
         print(":smile: Here are the matches!")
         print(lines_display)
+    # there are no lines of text, display a message
     else:
         print(":cry: Sorry, no matches!")
 
 def search(file_contents, email_address):
+    # display the email address to find
     print(f":mag_right: Searching for {email_address}")
     matching_lines = []
+    # search through each line in the file for the email address
     for line in iter(file_contents.splitlines()):
         if email_address in line:
             matching_lines.append(line)
+    # return the list of all matching email address(es)
     return matching_lines
 
 # read in the text of the email file
