@@ -2,7 +2,6 @@ from rich import print
 from rich import inspect
 
 def mean(numbers):
-    """Compute the arithmetic mean of the values in numbers."""
     # add the numbers together
     numbers_sum = sum(numbers)
     # count the values in numbers
