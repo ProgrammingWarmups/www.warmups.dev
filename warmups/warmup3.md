@@ -14,13 +14,17 @@ id: 3
 
 - Using the following source code, can you find these parts of a program?
   - User-defined function:
-      - Name: `mean`
-      - Input: `numbers`
-      - Output: `arithmetic_mean`
-      - Body: three comments and four statements
-  - Lists: `numbers_one` and `numbers_two`
-  - Language-defined functions: `sum`, `len`, and `print`
-- What are the similarities and differences between `mean` and `sum`?
+      - Name: `read`
+      - Input: `file_name`
+      - Output: `file_text`
+      - Body: three comments and three statements
+  - User-defined function:
+      - Name: `display`
+      - Input: `contents`
+      - Output: `None`
+      - Body: two comments and two statements
+- The `contents` variable is also called the parameter to the `display` function
+- Note that the `display` function produces output but does not `return` a value
 - Complete the task near each `TODO` marker and remove the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
@@ -29,7 +33,7 @@ id: 3
 <codeblock id="03_01">
 
 - Fill in the `_` to record the program's output
-- Fill in the `_` to call the correct functions
+- Fill in the `_` to reference the correct parameter
 - Answer these questions as you study this program:
   - What is the output produced by this program?
   - What is the purpose of a user-defined function?
