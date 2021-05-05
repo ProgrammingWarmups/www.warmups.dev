@@ -1,5 +1,4 @@
 def mean(numbers):
-    """Compute the arithmetic mean of the values in numbers."""
     # add the numbers together
     numbers_sum = sum(numbers)
     # count how many values are in numbers
