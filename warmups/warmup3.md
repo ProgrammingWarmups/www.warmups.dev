@@ -121,3 +121,49 @@ Yes, the program will crash because the `pathlib` package was not imported.
 </exercise>
 
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="4" title="Check: Search Through a File">
+
+```python
+from rich import print
+def search(file_contents, email_address):
+    # display the email address to find
+    print(f":mag_right: Searching for {email_address}")
+    matching_lines = []
+    # search through each line in the file for the email address
+    for line in iter(file_contents.splitlines()):
+        if email_address in line:
+            matching_lines.append(line)
+    # return the list of all matching email address(es)
+    return matching_lines
+```
+
+In this program, what is the purpose of the source code `if email_address in line:`?
+
+<choice>
+
+<opt text="It iterates through all of the lines stored in <code>file_contents</code>">
+
+Actually, it checks to see if the current `email_address` is in the line of text.
+
+</opt>
+
+<opt text="It checks to see if the <code>email_address</code> is in the current line of text" correct="true">
+
+Yes, it checks to see if the current `email_address` is in the line of text.
+
+</opt>
+
+<opt text="It returns the list of all matching email addresses stored in <code>matching_lines</code>">
+
+Actually, it checks to see if the current `email_address` is in the line of text.
+
+</opt>
+
+</choice>
+
+</exercise>
+
+<!-- EXERCISE } -->
