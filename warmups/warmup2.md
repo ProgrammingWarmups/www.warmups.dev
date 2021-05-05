@@ -165,7 +165,7 @@ Actually, both `display` and `mean` are user-defined functions created by a prog
     - The `rich` package provides colorful and formatted output
     - The `print` function provided by `rich` supports the display of emojis
     - The `inspect` function provided by `rich` tells you all the details about an object
-- The notation `:mag:` displays a magnifying glass and `:rocket:` displays a rocket
+- According to <a href = "https://emojipedia.org/">Emojipedia</a>, `:mag_right:` and `:rocket:` encode a magnifying glass and a rocket
 - Complete the task near each `TODO` marker, removing the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
@@ -183,4 +183,3 @@ Actually, both `display` and `mean` are user-defined functions created by a prog
 </codeblock>
 
 </exercise>
-
