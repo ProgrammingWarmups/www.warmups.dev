@@ -16,11 +16,12 @@ id: 2
   - User-defined function:
       - Name: `mean`
       - Input: `numbers`
-      - Output: `mean`
+      - Output: `arithmetic_mean`
+      - Body of the `mean` method
   - Lists: `numbers_one` and `numbers_two`
   - Python-defined functions: `sum`, `len`, and `print`
-- What do you think is the purpose of the user-defined function called `mean`?
-- Complete the task near the `TODO` marker, removing the `TODO` when finished
+- What are the similarities and differences between `mean` and `sum`?
+- Complete the task near the `TODO` markers, removing the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
@@ -30,7 +31,7 @@ id: 2
 - Fill in the `_` to record the program's output
 - Answer these questions as you study this Python program:
   - What is the output produced by this program?
-  - What is the purpose of a user-defined functions?
+  - What is the purpose of a user-defined function?
   - What is the input, output, and behavior of `mean`?
 
 </codeblock>
