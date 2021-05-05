@@ -17,7 +17,7 @@ id: 2
       - Name: `mean`
       - Input: `numbers`
       - Output: `arithmetic_mean`
-      - Body of the `mean` method
+      - Body: three comments and four statements
   - Lists: `numbers_one` and `numbers_two`
   - Language-defined functions: `sum`, `len`, and `print`
 - What are the similarities and differences between `mean` and `sum`?
@@ -29,6 +29,7 @@ id: 2
 <codeblock id="02_01">
 
 - Fill in the `_` to record the program's output
+- Fill in the `_` to call the correct functions
 - Answer these questions as you study this program:
   - What is the output produced by this program?
   - What is the purpose of a user-defined function?
