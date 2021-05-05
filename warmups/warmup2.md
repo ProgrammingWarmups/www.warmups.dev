@@ -49,7 +49,7 @@ id: 2
 def mean(numbers):
     # add the numbers together
     number_sum = sum(numbers)
-    # count the values in numbers
+    # count how many values are in numbers
     number_count = len(numbers)
     # compute the arithmetic mean
     arithmetic_mean = s / N
@@ -121,7 +121,7 @@ Actually, `len` is a function defined by the language and `mean` is a user-defin
 def mean(numbers):
     # add the numbers together
     number_sum = sum(numbers)
-    # count the values in numbers
+    # count how many values are in numbers
     number_count = len(numbers)
     # compute the arithmetic mean
     arithmetic_mean = number_sum / number_count
@@ -252,7 +252,7 @@ from rich import inspect
 def mean(numbers):
     # add the numbers together
     numbers_sum = sum(numbers)
-    # count the values in numbers
+    # count how many values are in numbers
     numbers_count = len(numbers)
     # compute the arithmetic mean
     arithmetic_mean = numbers_sum / numbers_count
