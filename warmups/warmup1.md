@@ -1,23 +1,23 @@
 ---
-title: 'Warmup 1: What happens when a Python program runs?'
+title: 'Warmup 1: What Happens When a Program Runs?'
 description:
- 'Create and use a mental model about what happens when you run a Python program'
+ 'Investigate the static structure and dynamic behavior of a program'
 prev: null
-next: /chapter2
+next: /warmup2
 type: chapter
 id: 1
 ---
 
-<!-- EXERCISE -->
+<!-- EXERCISE { -->
 
-<exercise id="1" title="What are Some Parts of Python Program?">
+<exercise id="1" title="Parts of a Program">
 
-- Can you find these parts a Python program?
+- Using the following source code, can you find these parts of a program?
   - Variables: `numbers`, `s`, `N`, and `mean`
   - Functions: `sum`, `len`, and `print`
   - Comments: `# create a list of numbers`
 - What do you think is the purpose of these program parts?
-- Complete the task near the `TODO` marker, removing the `TODO` when finished!
+- Complete the task near the `TODO` marker and remove the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
@@ -25,7 +25,7 @@ id: 1
 <codeblock id="01_01">
 
 - Fill in the `_` to record the program's output
-- Answer these questions as you study this Python program:
+- Answer these questions as you study this program:
   - What is the output produced by this program?
   - What is the purpose of a variable, function, or comment?
   - What are the input(s), output(s), and behavior of functions like `sum`,
@@ -35,16 +35,18 @@ id: 1
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
 
-<exercise id="2" title="Check: Parts of a Python Program">
+<!-- EXERCISE { -->
+
+<exercise id="2" title="Check: Parts of a Program">
 
 ```python
 # create a list of numbers
 numbers = [2, 4, 6, 8]
 # add the numbers together
 s = sum(numbers)
-# count the values in numbers
+# count how many values are in numbers
 N = len(numbers)
 # compute the arithmetic mean
 mean = s / N
@@ -52,23 +54,23 @@ mean = s / N
 print(f"Mean: {mean}")
 ```
 
-Using this program as an example, what constructs are evident in a Python program?
+What constructs are evident in this program?
 
 <choice>
 
 <opt text="Variables that provide a non-executable reminder of the code's behavior">
 
-No, variables store values on behalf of the Python program.
+No, variables store values on behalf of the program.
 
 </opt>
 
-<opt text="Variables that store values used for the Python program's computation" correct="true">
+<opt text="Variables that store values used for the program's computation" correct="true">
 
 Yes, variables store values that can then be used in a computation.
 
 </opt>
 
-<opt text="Comments with values that the Python program displays in its output">
+<opt text="Comments with values that the program displays in its output">
 
 Nope, comments are human-readable reminders of the code's behavior.
 
@@ -77,31 +79,33 @@ Nope, comments are human-readable reminders of the code's behavior.
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
 
-<exercise id="3" title="What Happens When a Python Program Runs?">
+<!-- EXERCISE { -->
 
-- A [notional machine for Python](http://teachtogether.tech/en/#s:models-notional) explains what Python programs do when they are run
+<exercise id="3" title="Running a Program">
+
+- A [notional machine for Python](http://teachtogether.tech/en/#s:models-notional) explains what programs do when they are run
 - The notational machine has twelve concepts. Can you grasp the basics of each one?
 - Excerpts of three of the twelve notions about Python programs:
   - **Notion 5**: "Lists, sets, and other collections store references to other data rather ..."
   - **Notion 7**: "When code is executed, Python steps through the instructions, doing ..."
   - **Notion 8**: "Some instructions make Python read data, do calculations, and
 create new data."
-- Descriptions of the behavior of lines in this Python program:
+- Descriptions of the behavior of lines in this program:
   - `numbers = [2, 4, 6, 8]` creates a list that contains four numbers in it
   - `s = sum(numbers)` stores the output of `sum` in a new variable called `s`
   - `mean = s / N` divides `s` by `N` and stores the result in a new variable called `mean`
-- Complete the task near the `TODO` marker, removing the `TODO` when finished!
+- Complete the tasks indicated by the `TODO` marker and remove the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
 
 <codeblock id="01_03">
 
-- Fix the mistakes in the program so that it outputs `Mean: 4.0`
+- Fix the mistakes in the program so that it outputs `Mean: 5.0`
 - Answer these questions as you study this program:
-  - What is the purpose the `len` and `sum` functions?
+  - What is the purpose of the `len` and `sum` functions?
   - What values should the variables `s` and `N` contain?
   - Why don't developers keep `TODO` markers in source code?
 
@@ -109,9 +113,11 @@ create new data."
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
 
-<exercise id="4" title="Check: Running a Python Program">
+<!-- EXERCISE { -->
+
+<exercise id="4" title="Check: Running a Program">
 
 ```python
 # create a list of numbers
@@ -126,7 +132,7 @@ mean = s / N
 print(f"Mean: {mean}")
 ```
 
-Using this program as an example, what is the purpose of the statement `s = sum(numbers)`?
+What is the purpose of the statement `s = sum(numbers)` in this program?
 
 <choice>
 
@@ -152,14 +158,15 @@ No, this line of source code does not calculate the number of values in the list
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE { -->
 
-<exercise id="5" title="How do Code Changes Influence at Python Program?">
+<exercise id="5" title="Modifying a Program's Source Code">
 
-- Complete the tasks near the `TODO` marker, removing the `TODO` when finished!
-  - Ensure that the program produces the output `Mean: 4.0` by adding values to `numbers`
-  - Add the correct equation for calculation the arithmetic mean
-  - Use the correct `print` statement to display the arithmetic mean
+- Modify the program's source code so that it:
+  - Produces the output `Mean: 4.0` by adding suitable values to `numbers`
+  - Uses the correct equation for calculating the arithmetic mean
+  - Uses the correct `print` statement to display the arithmetic mean
+- Complete the tasks indicated by each `TODO` marker and remove the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
@@ -175,9 +182,11 @@ No, this line of source code does not calculate the number of values in the list
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
 
-<exercise id="6" title="Check: Modifying a Python Program">
+<!-- EXERCISE { -->
+
+<exercise id="6" title="Check: Modifying a Program's Source Code">
 
 ```python
 # create a list of numbers
@@ -192,7 +201,7 @@ mean = s / N
 print(f"Mean: {mean}")
 ```
 
-Using this program as an example, what happens when its statements are run?
+What happens when the statements of this program are run?
 
 <choice>
 
@@ -204,16 +213,50 @@ No, that is not the correct equation for the arithmetic mean.
 
 <opt text="It calculates the arithmetic mean by running <code>s / n</code> and storing it in <code>mean</code>">
 
-No, the Python program does not have a variable called `n`
+No, the program's source code does not have a variable called `n`
 
 </opt>
 
-<opt text="It calculates the arithmetic by running <code>s / N</code> and storing it in <code>mean</code>" correct="true">
+<opt text="It calculates the arithmetic mean by running <code>s / N</code> and storing it in <code>mean</code>" correct="true">
 
-Yes, that is the correct equation for the arithmetic mean.
+Yes, that is the correct description of this program's behavior.
 
 </opt>
 
 </choice>
 
 </exercise>
+
+<!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="7" title="Stretch: What Happens When a Program Runs?">
+
+```python
+# create a list of numbers
+numbers = [1, 3, 5, 7]
+# add the numbers together
+s = sum(numbers)
+# count the values in numbers
+N = len(numbers)
+# compute the arithmetic mean
+mean = s / N
+# display the arithmetic mean
+print(f"Mean: {mean}")
+```
+
+- This source code segment illustrates the following parts of a program:
+  - Variables like `numbers`, `s`, `N`, and `mean` store values of computations
+  - Functions like `sum`, `len`, and `print` accept an input and produce an output
+  - Comments like `# create a list of numbers` aid in understanding the program
+- A [notional machine for Python](http://teachtogether.tech/en/#s:models-notional) explains what programs do when they are run, such as:
+  - Each line of the source code is executed in sequence, performing the specified action
+  - The line `numbers = [1, 3, 5, 7]` creates a list that contains the numbers 1, 3, 5, and 7
+  - The `sum` functions adds together the values in `numbers` and stores 16 in the variable `s`.
+- A developer can modify the source code of a program to change its behavior or fix a problem
+- Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
+
+</exercise>
+
+<!-- EXERCISE } -->
