@@ -19,7 +19,7 @@ id: 2
       - Output: `arithmetic_mean`
       - Body of the `mean` method
   - Lists: `numbers_one` and `numbers_two`
-  - Python-defined functions: `sum`, `len`, and `print`
+  - Language-defined functions: `sum`, `len`, and `print`
 - What are the similarities and differences between `mean` and `sum`?
 - Complete the task near the `TODO` markers, removing the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
@@ -29,11 +29,53 @@ id: 2
 <codeblock id="02_01">
 
 - Fill in the `_` to record the program's output
-- Answer these questions as you study this Python program:
+- Answer these questions as you study this program:
   - What is the output produced by this program?
   - What is the purpose of a user-defined function?
   - What is the input, output, and behavior of `mean`?
 
 </codeblock>
+
+</exercise>
+
+<!-- EXERCISE -->
+
+<exercise id="2" title="Check: Creating a Function">
+
+```python
+def mean(numbers):
+    """Compute the arithmetic mean of the values in numbers."""
+    # add the numbers together
+    number_sum = sum(numbers)
+    # count the values in numbers
+    number_count = len(numbers)
+    # compute the arithmetic mean
+    arithmetic_mean = s / N
+    return arithmetic_mean
+```
+
+Which of the following statements is *not true* about this program?
+
+<choice>
+
+<opt text="<code>sum</code> is a user-defined function and <code>mean</code> is a language-defined function" correct="true">
+
+Yes, `sum` is a function defined by the language and `mean` is a user-defined function.
+
+</opt>
+
+<opt text="<code>mean</code> is a user-defined function and <code>sum</code> is a language-defined function">
+
+Actually, `sum` is a function defined by the language and `mean` is a user-defined function.
+
+</opt>
+
+<opt text="<code>mean</code> is a user-defined function and <code>len</code> is a language-defined function">
+
+Actually, `len` is a function defined by the language and `mean` is a user-defined function.
+
+</opt>
+
+</choice>
 
 </exercise>
