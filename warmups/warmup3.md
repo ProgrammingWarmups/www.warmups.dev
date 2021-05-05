@@ -33,7 +33,7 @@ id: 3
 <codeblock id="03_01">
 
 - Fill in the `_` to record the program's output
-- Fill in the `_` to reference the correct parameter
+- Fill in the `_` to reference the correct variables
 - Answer these questions as you study this program:
   - What is the output produced by this program?
   - What is the purpose of a user-defined function?
