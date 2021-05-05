@@ -2,7 +2,6 @@ from rich import print
 from rich import inspect
 
 def mean(numbers):
-    """Compute the arithmetic mean of the values in numbers."""
     # add the numbers together
     numbers_sum = sum(numbers)
     # count the values in numbers
@@ -13,12 +12,12 @@ def mean(numbers):
 
 # create a list of numbers
 numbers_one = [1, 3, 5, 7]
-# display a message and a magnifying glass emoji
-print("Inspecting the list! :mag_right:")
-# inspect the list of numbers
-inspect(numbers_one, methods=True)
+# TODO: display a message and a magnifying glass emoji
+print("Inspecting the list! :_________:")
+# TODO: inspect the list of numbers
+_______(numbers_one, methods=True)
 # display a message and a rocket emoji
 print("Computing the mean! :rocket:")
-# calculate the mean and display it
-numbers_one_mean = mean(numbers_one)
+# TODO: calculate the mean and display it
+numbers_one_mean = ____(numbers_one)
 print(f"Mean: {numbers_one_mean}")
