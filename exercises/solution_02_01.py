@@ -9,16 +9,16 @@ def mean(numbers):
 
 # create a list of numbers
 numbers_one = [1, 3, 5, 7]
-# TODO: calculate the mean
-numbers_one_mean = ____(numbers_one)
+# calculate the mean
+numbers_one_mean = mean(numbers_one)
 print(f"Mean: {numbers_one_mean}")
 
 # create a list of numbers
 numbers_two = [2, 4, 6, 8]
-# TODO: calculate the mean
-numbers_two_mean = ____(numbers_two)
+# calculate the mean
+numbers_two_mean = mean(numbers_two)
 print(f"Mean: {numbers_two_mean}")
 
-# TODO: fill in the program's output
-# ____: ___
-# ____: ___
+# the program's output:
+# Mean: 4.0
+# Mean: 5.0

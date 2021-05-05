@@ -106,7 +106,7 @@ class Juniper extends React.Component {
      * Request a binder, e.g. from mybinder.org
      * @param {string} repo - Repository name in the format 'user/repo'.
      * @param {string} branch - The repository branch, e.g. 'master'.
-     * @param {string} url - The binder reployment URL, including 'http(s)'.
+     * @param {string} url - The binder deployment URL, including 'http(s)'.
      * @returns {Promise} - Resolved with Binder settings, rejected with Error.
      */
     requestBinder(repo, branch, url) {
@@ -143,7 +143,7 @@ class Juniper extends React.Component {
     }
 
     /**
-     * Request kernel and estabish a server connection via the JupyerLab service
+     * Request kernel and establish a server connection via the JupyterLab service
      * @param {object} settings - The server settings.
      * @returns {Promise} - A promise that's resolved with the kernel.
      */
@@ -237,7 +237,7 @@ class Juniper extends React.Component {
         outputArea.model.add({
             output_type: 'stream',
             name: 'stdout',
-            text: `${action} Docker container on ${url}...`,
+            text: `${action} Docker container on ${url}!\nThis could take at least 60 seconds. 🤷`,
         })
         new Promise((resolve, reject) =>
             this.getKernel()

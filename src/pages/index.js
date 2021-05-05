@@ -21,10 +21,13 @@ export default ({ data }) => {
       <section>
         <h1 className={classes.subtitle}>Programming Warmups, <em>for Developers</em></h1>
         <div className={classes.introduction}>
-          <p> If you are like many developers, you may find it frustrating when you start to program for the first time &mdash; or when you return to programming after the weekend. <span role="img" aria-label="wink">😉</span> Stop procrastinating or feeling overwhelmed and use <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> to master programming skills and rev up your mind. You only need your web browser!</p>
+          <p> If you are like many developers, you may find it frustrating when you start to program for the first time &mdash; or when you return to programming after the weekend. Stop procrastinating or feeling overwhelmed and use <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> to master programming skills and rev up your mind. You only need your web browser! <span role="img" aria-label="wink">😉</span></p>
         </div>
         <div className={classes.continuation}>
-          <p> Although <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> uses the Python programming language, each exercise explores the concepts shared by many languages and environments. A warmup poses a question that a developer can intuitively answer upon completion of every one of its steps. Find a question that you want to answer and get started! <span role="img" aria-label="rocket">🚀</span></p>
+          <p> Although <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> uses the Python programming language, each exercise explores the concepts shared by many languages and environments. A warmup poses a question that a developer can intuitively answer upon its completion. Each warmup has three coding exercises, three checks, and a summary stretch. <span role="img" aria-label="person running">🏃</span></p>
+        </div>
+        <div className={classes.continuation}>
+          <p> You can complete each of <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link>'s exercises at your own pace. You should only mark an exercise as completed when you are confident that you have fully understood it. For privacy, <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> does not need a login or store your responses on a server. Find a question that you want to answer and get started! <span role="img" aria-label="rocket">🚀</span></p>
         </div>
       </section>
 
