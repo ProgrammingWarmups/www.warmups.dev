@@ -2,7 +2,7 @@
 numbers = [_, _, _, _]
 # add the numbers together
 s = sum(numbers)
-# count the values in numbers
+# count how many values are in numbers
 N = len(numbers)
 # TODO: compute the arithmetic mean
 mean = _ / _
