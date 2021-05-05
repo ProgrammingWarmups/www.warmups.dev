@@ -8,14 +8,14 @@ def mean(numbers):
     return arithmetic_mean
 
 def display(numbers):
-    space = ", "
-    return space.join(map(str, numbers))
+    comma = ", "
+    return comma.join(map(str, numbers))
 
 # create a list of numbers
 numbers_one = [1, 3, 5, 7]
-# TODO: create the text of the list
-numbers_one_text = display(numbers_one)
-print(f"Values: {numbers_one_text}")
-# TODO: calculate the mean
-numbers_one_mean = mean(numbers_one)
-print(f"Mean: {numbers_one_mean}")
+# TODO: create text of the list to display
+numbers_one_text = ______(numbers_one)
+print(f"Values: {________________}")
+# TODO: calculate and display the mean
+numbers_one_mean = ____(numbers_one)
+print(f"Mean: {________________}")
