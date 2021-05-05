@@ -21,7 +21,7 @@ id: 2
   - Lists: `numbers_one` and `numbers_two`
   - Language-defined functions: `sum`, `len`, and `print`
 - What are the similarities and differences between `mean` and `sum`?
-- Complete the task near each `TODO` marker, removing the `TODO` when finished
+- Complete the task near each `TODO` marker and remove the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
@@ -93,7 +93,7 @@ Actually, `len` is a function defined by the language and `mean` is a user-defin
     - The `display` function creates a textual representation of `numbers`
     - Both functions have the same type of input, a `List` called `numbers`
 - The `return` statement in a user-defined function creates its output
-- Complete the task near each `TODO` marker, removing the `TODO` when finished
+- Complete the task near each `TODO` marker and remove the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
@@ -174,7 +174,7 @@ Actually, both `display` and `mean` are user-defined functions created by a prog
     - The `print` function provided by `rich` supports the display of emojis
     - The `inspect` function provided by `rich` tells you all the details about an object
 - According to <a href = "https://emojipedia.org/">Emojipedia</a>, `:mag_right:` and `:rocket:` encode a magnifying glass and a rocket
-- Complete the task near each `TODO` marker, removing the `TODO` when finished
+- Complete the task near each `TODO` marker and remove the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
