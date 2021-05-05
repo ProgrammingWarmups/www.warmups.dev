@@ -34,9 +34,9 @@ def search(file_contents, email_address):
 # read in the text of the email file
 emails_file = "exercises/emails.txt"
 emails_text = read(emails_file)
-# search for an email address
-matching_emails = search(emails_text, "mukherjee@yahoo.com")
+# TODO: search for a missing email address
+matching_emails = search(emails_text, "___________________")
 display(matching_emails)
-# search for an email address
-matching_emails = search(emails_text, "rsanchez@yahoo.com")
+# TODO: search for an available email address
+matching_emails = search(emails_text, "__________________")
 display(matching_emails)
