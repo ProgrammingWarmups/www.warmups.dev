@@ -14,7 +14,7 @@ def mean(numbers):
 # create a list of numbers
 numbers_one = [1, 3, 5, 7]
 # display a message and a magnifying glass emoji
-print("Inspecting the list! :mag:")
+print("Inspecting the list! :mag_right:")
 # inspect the list of numbers
 inspect(numbers_one, methods=True)
 # display a message and a rocket emoji
