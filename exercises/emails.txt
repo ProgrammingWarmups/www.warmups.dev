@@ -1,10 +1,10 @@
-tylernelson@gmail.com,Careers adviser
-gregory02@medina-mayer.com,Accountant
-jonesmiguel@hotmail.com,Health and safety inspector
-rsanchez@yahoo.com,Planning and development
-hillfrank@ward-wood.com,Physiological scientist
-aaronhunter@gmail.com,Insurance surveyor
-kylebarnes@hotmail.com,Records manager
-joe70@yahoo.com,Network engineer
-torresjames@white.info,Electrical engineer
-shawkins@watson.com,Science writer
+tylernelson@gmail.com, Career adviser
+gregory02@medina-mayer.com, Accountant
+jonesmiguel@hotmail.com, Health and safety inspector
+rsanchez@yahoo.com, Planning and development adviser
+hillfrank@ward-wood.com, Biological scientist
+aaronhunter@gmail.com, Insurance surveyor
+kylebarnes@hotmail.com, Records manager
+joe70@yahoo.com, Network engineer
+torresjames@white.info, Electrical engineer
+shawkins@watson.com, Science writer
