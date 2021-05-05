@@ -100,11 +100,11 @@ Actually, `len` is a function defined by the language and `mean` is a user-defin
 
 <codeblock id="02_03">
 
-- Fill in the `_` to record the program's output
+- Fill in the `_` for the names of variables and functions
 - Answer these questions as you study this program:
-  - What is the output produced by this program?
-  - What is the purpose of a user-defined function?
-  - What is the input, output, and behavior of `mean`?
+  - What is the name of the function that renders a list as text?
+  - What is the name of the function that calculates the mean of a list?
+  - What is the purpose of the `map(str, numbers)` function call in display?
 
 </codeblock>
 
