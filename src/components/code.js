@@ -63,7 +63,7 @@ class CodeBlock extends React.Component {
     render() {
         const { Juniper, showSolution } = this.state
         const { id, source, solution, test, children } = this.props
-        const sourceId = source || `exc_${id}`
+        const sourceId = source || `exercise_${id}`
         const solutionId = solution || `solution_${id}`
         const testId = test || `test_${id}`
         const juniperClassNames = {
