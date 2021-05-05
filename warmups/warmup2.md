@@ -92,7 +92,7 @@ Actually, `len` is a function defined by the language and `mean` is a user-defin
 - Each function should have its own distinct purpose:
     - The `mean` function computes the arithmetic mean of `numbers`
     - The `display` function creates a textual representation of `numbers`
-    - Both functions have the same type of input, a `List` called `numbers`
+    - Both functions have the same type of input, a list called `numbers`
 - The `return` statement in a user-defined function creates its output
 - Complete the task near each `TODO` marker and remove the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
@@ -229,7 +229,7 @@ Actually, the `rich` package provides many functions such as `print` and `inspec
 
 </opt>
 
-<opt text="<code>rich</code> is a package that many extra functions like <code>print</code> and <code>inspect</code>" correct="true">
+<opt text="<code>rich</code> is a package that contains many extra functions like <code>print</code> and <code>inspect</code>" correct="true">
 
 Yes, the `rich` package provides many functions such as `print` and `inspect`.
 
