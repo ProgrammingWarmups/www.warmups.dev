@@ -167,3 +167,36 @@ Actually, it checks to see if the current `email_address` is in the line of text
 </exercise>
 
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="5" title="Fixing a File Searching Program">
+
+- Using the following source code, can you find these parts of a program?
+    - A `for` loop that can iterate through each line of a string
+    - An `if` statement that checks to see if a lists length is not zero
+    - The call to the `search` function that will not find a  matching email
+    - The call to the `search` function that will find a matching email
+    - An assignment statement that creates an empty listing using `[]`
+- The `display` function prints out all matching lines or a message otherwise
+- The `search` function goes through each line in the file's text and looks for an email
+- Complete the task near each `TODO` marker and remove the `TODO` when finished
+- Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
+
+<hr>
+
+<codeblock id="03_03">
+
+- Fill in the `_` for an email address not found in the file
+- Fill in the `_` for an email address found in the file
+- Answer these questions as you study this program:
+  - What is the output produced by this program?
+  - What is the purpose of the `for` loop in the `search` function?
+  - What is the purpose of the `if` statement in the `search` function?
+
+</codeblock>
+
+</exercise>
+
+<!-- EXERCISE } -->
+
