@@ -193,3 +193,49 @@ Actually, both `display` and `mean` are user-defined functions created by a prog
 </exercise>
 
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="6" title="Check: Using External Functions">
+
+```python
+from rich import print
+from rich import inspect
+
+# create a list of numbers
+numbers_one = [1, 3, 5, 7]
+# display a message and a magnifying glass emoji
+print("Inspecting the list! :mag_right:")
+# inspect the list of numbers
+inspect(numbers_one, methods=True)
+# display a message and a rocket emoji
+print("Computing the mean! :rocket:")
+```
+
+Which of the following is a correct statement about the `rich` package used in this program?
+
+<choice>
+
+<opt text="<code>rich</code> is a function that contains additional functions called <code>print</code> and <code>inspect</code>">
+
+Actually, `rich` is a package that contains many functions such as `print` and `inspect`.
+
+</opt>
+
+<opt text="<code>rich</code> is a package that only displays emojis with its <code>print</code> function">
+
+Actually, the `rich` package provides many functions such as `print` and `inspect`.
+
+</opt>
+
+<opt text="<code>rich</code> is a package that many extra functions like <code>print</code> and <code>inspect</code>" correct="true">
+
+Yes, the `rich` package provides many functions such as `print` and `inspect`.
+
+</opt>
+
+</choice>
+
+</exercise>
+
+<!-- EXERCISE } -->
