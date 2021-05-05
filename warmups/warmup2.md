@@ -156,3 +156,31 @@ Actually, both `display` and `mean` are user-defined functions created by a prog
 </choice>
 
 </exercise>
+
+<!-- EXERCISE -->
+
+<exercise id="5" title="Using External Functions">
+
+- There are many external packages, like `rich`, that add features to the Python language:
+    - The `rich` package provides colorful and formatted output
+    - The `print` function provided by `rich` supports the display of emojis
+    - The `inspect` function provided by `rich` tells you all the details about an object
+- The notation `:mag:` displays a magnifying glass and `:rocket:` displays a rocket
+- Complete the task near each `TODO` marker, removing the `TODO` when finished
+- Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
+
+<hr>
+
+<codeblock id="02_05">
+
+- Fill in the `_` to call the correct functions
+- Fill in the `_` to display the required emojis
+- Answer these questions as you study this program:
+  - What is the output produced by this program?
+  - What is the purpose of the `rich` package?
+  - How do you display an emoji in the output?
+
+</codeblock>
+
+</exercise>
+
