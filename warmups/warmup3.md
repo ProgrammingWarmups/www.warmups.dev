@@ -109,12 +109,12 @@ Yes, the program will crash because the `pathlib` package was not imported.
 
 <codeblock id="03_03">
 
-- Fill in the `_` to record the program's output
-- Fill in the `_` to reference the correct variables
+- Fill in the `_` for an email address not found in the file
+- Fill in the `_` for an email address found in the file
 - Answer these questions as you study this program:
   - What is the output produced by this program?
-  - What is the purpose of a user-defined function?
-  - What is the input, output, and behavior of `mean`?
+  - What is the purpose of the `for` loop in the `search` function?
+  - What is the purpose of the `if` statement in the `search` function?
 
 </codeblock>
 
