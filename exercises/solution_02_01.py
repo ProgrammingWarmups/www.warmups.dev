@@ -6,7 +6,7 @@ def mean(numbers):
     N = len(numbers)
     # compute the arithmetic mean
     arithmetic_mean = number_sum / number_count
-    return mean
+    return arithmetic_mean
 
 # create a list of numbers
 numbers_one = [1, 3, 5, 7]
