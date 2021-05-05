@@ -41,4 +41,51 @@ id: 3
 
 </codeblock>
 
+</exercise>
+
+<!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="2" title="Check: Input and Display a File">
+
+```python
+import pathlib
+from rich import print
+
+def read(file_name):
+    # create a Path object to the file
+    file_path = pathlib.Path(file_name)
+    # read the text of the file
+    file_text = file_path.read_text()
+    # return the file's contents
+    return file_text
+```
+
+What would happen if this program did not have the statement `import pathlib`?
+
+<choice>
+
+<opt text="The program would run to completion and show ten email addresses in the output">
+
+Actually, the program will crash because the `pathlib` package was not imported.
+
+</opt>
+
+<opt text="The program would crash when running the statement <code>from rich import print</code>">
+
+Actually, `from rich import print` will not cause the program to crash.
+
+</opt>
+
+<opt text="The program would crash when calling the constructor for <code>pathlib.Path</code>" correct="true">
+
+Yes, the program will crash because the `pathlib` package was not imported.
+
+</opt>
+
+</choice>
+
+</exercise>
+
 <!-- EXERCISE } -->
