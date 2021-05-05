@@ -21,7 +21,7 @@ id: 2
   - Lists: `numbers_one` and `numbers_two`
   - Language-defined functions: `sum`, `len`, and `print`
 - What are the similarities and differences between `mean` and `sum`?
-- Complete the task near the `TODO` markers, removing the `TODO` when finished
+- Complete the task near each `TODO` marker, removing the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
@@ -84,16 +84,13 @@ Actually, `len` is a function defined by the language and `mean` is a user-defin
 
 <exercise id="3" title="Creating Multiple Functions">
 
-- Using the following source code, can you find these parts of a program?
-  - User-defined function:
-      - Name: `mean`
-      - Input: `numbers`
-      - Output: `arithmetic_mean`
-      - Body of the `mean` method
-  - Lists: `numbers_one` and `numbers_two`
-  - Language-defined functions: `sum`, `len`, and `print`
-- What are the similarities and differences between `mean` and `sum`?
-- Complete the task near the `TODO` markers, removing the `TODO` when finished
+- A program can contain more than one function
+- Each function should have its own distinct purpose:
+    - The `mean` function computes the arithmetic mean of `numbers`
+    - The `display` function creates a textual representation of `numbers`
+    - Both functions have the same type of input, a `List` called `numbers`
+- The `return` statement in a user-defined function creates its output
+- Complete the task near each `TODO` marker, removing the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
