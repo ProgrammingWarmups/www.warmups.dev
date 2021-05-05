@@ -44,7 +44,6 @@ id: 2
 
 ```python
 def mean(numbers):
-    """Compute the arithmetic mean of the values in numbers."""
     # add the numbers together
     number_sum = sum(numbers)
     # count the values in numbers
@@ -104,5 +103,56 @@ Actually, `len` is a function defined by the language and `mean` is a user-defin
   - What is the purpose of the `map(str, numbers)` function call in display?
 
 </codeblock>
+
+</exercise>
+
+<!-- EXERCISE -->
+
+<exercise id="4" title="Check: Creating Multiple Functions">
+
+```python
+def mean(numbers):
+    # add the numbers together
+    number_sum = sum(numbers)
+    # count the values in numbers
+    number_count = len(numbers)
+    # compute the arithmetic mean
+    arithmetic_mean = number_sum / number_count
+    return arithmetic_mean
+
+def display(numbers):
+    comma = ", "
+    return comma.join(map(str, numbers))
+
+# create a list of numbers
+numbers_one = [1, 3, 5, 7]
+# create the text of the list to display
+numbers_one_text = display(numbers_one)
+print(f"Values: {numbers_one_text}")
+```
+
+Which of the following is a correct statement about this program?
+
+<choice>
+
+<opt text="<code>display</code> is a function that accepts as input a string and returns a list of numbers">
+
+Actually, `display` is a function that produces a string when given a list of numbers.
+
+</opt>
+
+<opt text="<code>display</code> is a function that accepts as input a list of numbers and returns a string" correct="true">
+
+Yes, `display` is a function that produces a string when given a list of numbers.
+
+</opt>
+
+<opt text="<code>display</code> is a user-defined function and <code>mean</code> is a language-defined function">
+
+Actually, both `display` and `mean` are user-defined functions created by a programmer.
+
+</opt>
+
+</choice>
 
 </exercise>
