@@ -106,7 +106,7 @@ class Juniper extends React.Component {
      * Request a binder, e.g. from mybinder.org
      * @param {string} repo - Repository name in the format 'user/repo'.
      * @param {string} branch - The repository branch, e.g. 'master'.
-     * @param {string} url - The binder reployment URL, including 'http(s)'.
+     * @param {string} url - The binder deployment URL, including 'http(s)'.
      * @returns {Promise} - Resolved with Binder settings, rejected with Error.
      */
     requestBinder(repo, branch, url) {
