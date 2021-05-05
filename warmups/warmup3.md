@@ -172,27 +172,28 @@ Actually, it checks to see if the current `email_address` is in the line of text
 
 <exercise id="5" title="Fixing a File Searching Program">
 
-- Using the following source code, can you find these parts of a program?
-    - A `for` loop that can iterate through each line of a string
-    - An `if` statement that checks to see if a lists length is not zero
-    - The call to the `search` function that will not find a  matching email
-    - The call to the `search` function that will find a matching email
-    - An assignment statement that creates an empty listing using `[]`
-- The `display` function prints out all matching lines or a message otherwise
-- The `search` function goes through each line in the file's text and looks for an email
-- Complete the task near each `TODO` marker and remove the `TODO` when finished
+- This is the purpose of each user-defined function in this program:
+    - The `read` function accesses a file and returns all of its contents
+    - The `display` function prints out all matching lines or a message otherwise
+    - The `search` function goes through each line in the file's text and looks for an email
+- If these functions are not called correctly then the program may:
+    - Produce the wrong output
+    - Crash and print a traceback showing what went wrong
+    - Both produce the wrong output and crash and print a traceback
+- After reviewing the correct program from exercise three, fix the broken function calls
+- After modifications, the program should produce the same output as in the third exercise
+- Complete the task near the `TODO` marker and remove the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 <hr>
 
 <codeblock id="03_05">
 
-- Fill in the `_` for an email address not found in the file
-- Fill in the `_` for an email address found in the file
 - Answer these questions as you study this program:
-  - What is the output produced by this program?
-  - What is the purpose of the `for` loop in the `search` function?
-  - What is the purpose of the `if` statement in the `search` function?
+  - What is the purpose of the `read` function?
+  - What is the purpose of the `display` function?
+  - What is the purpose of the `search` function?
+- Mistake example: `display(emails_file)` should be `read(emails_file)`
 
 </codeblock>
 
