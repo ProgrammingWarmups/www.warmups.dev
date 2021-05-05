@@ -95,18 +95,13 @@ Yes, the program will crash because the `pathlib` package was not imported.
 <exercise id="3" title="Search Through a File">
 
 - Using the following source code, can you find these parts of a program?
-  - User-defined function:
-      - Name: `read`
-      - Input: `file_name`
-      - Output: `file_text`
-      - Body: three comments and three statements
-  - User-defined function:
-      - Name: `display`
-      - Input: `contents`
-      - Output: `None`
-      - Body: two comments and two statements
-- The `contents` variable is also called the parameter to the `display` function
-- Note that the `display` function produces output but does not `return` a value
+    - A `for` loop that can iterate through each line of a string
+    - An `if` statement that checks to see if a lists length is not zero
+    - The call to the `search` function that will not find a  matching email
+    - The call to the `search` function that will find a matching email
+    - An assignment statement that creates an empty listing using `[]`
+- The `display` function prints out all matching lines or a message otherwise
+- The `search` function goes through each line in the file's text and looks for an email
 - Complete the task near each `TODO` marker and remove the `TODO` when finished
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
