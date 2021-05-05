@@ -8,7 +8,7 @@ def mean(numbers):
     return arithmetic_mean
 
 def display(numbers):
-    # create a comma separate for text
+    # create a comma separator for text
     comma = ", "
     # create and return a display of numbers
     # separated by comma, like "1, 3, 5, 7"
