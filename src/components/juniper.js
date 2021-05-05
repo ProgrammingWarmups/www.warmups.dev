@@ -237,7 +237,7 @@ class Juniper extends React.Component {
         outputArea.model.add({
             output_type: 'stream',
             name: 'stdout',
-            text: `${action} Docker container on ${url}...`,
+            text: `${action} Docker container on ${url}!\nThis could take at least 60 seconds. 🤷`,
         })
         new Promise((resolve, reject) =>
             this.getKernel()
