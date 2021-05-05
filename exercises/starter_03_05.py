@@ -31,6 +31,10 @@ def search(file_contents, email_address):
     # return the list of all matching email address(es)
     return matching_lines
 
+# TODO: Fix all of the mistakes in
+# the function calls, thus ensuring
+# that the program produces the same
+# output as it did the last time!
 # read in the text of the email file
 emails_file = "exercises/emails.txt"
 emails_text = display(emails_file)
