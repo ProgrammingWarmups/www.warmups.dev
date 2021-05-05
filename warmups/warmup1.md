@@ -25,7 +25,7 @@ id: 1
 <codeblock id="01_01">
 
 - Fill in the `_` to record the program's output
-- Answer these questions as you study this Python program:
+- Answer these questions as you study this program:
   - What is the output produced by this program?
   - What is the purpose of a variable, function, or comment?
   - What are the input(s), output(s), and behavior of functions like `sum`,
@@ -88,7 +88,7 @@ Nope, comments are human-readable reminders of the code's behavior.
   - **Notion 7**: "When code is executed, Python steps through the instructions, doing ..."
   - **Notion 8**: "Some instructions make Python read data, do calculations, and
 create new data."
-- Descriptions of the behavior of lines in this Python program:
+- Descriptions of the behavior of lines in this program:
   - `numbers = [2, 4, 6, 8]` creates a list that contains four numbers in it
   - `s = sum(numbers)` stores the output of `sum` in a new variable called `s`
   - `mean = s / N` divides `s` by `N` and stores the result in a new variable called `mean`
