@@ -9,13 +9,16 @@ def read(file_name):
     # return the file's contents
     return file_text
 
-def display(contents):
+def display(file_contents):
     # display a diagnostic message
     print(":mag_right: Contents of the file:")
-    # display the file's contents
-    print(contents)
+    # TODO: display the file's contents
+    print(_____________)
 
+# read in the text of the email file
 emails_file = "exercises/emails.txt"
 emails_text = read(emails_file)
-display(emails_text)
-# there are 10 email addresses in the file
+# TODO: display the text of the email file
+display(___________)
+# TODO: fill in the comment with the correct number
+# there are __ email addresses in the file
