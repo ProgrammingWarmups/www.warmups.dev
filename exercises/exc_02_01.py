@@ -21,5 +21,5 @@ numbers_two_mean = mean(numbers_two)
 print(f"Mean: {numbers_two_mean}")
 
 # TODO: fill in the program's output
-# Mean: 4.0
-# Mean: 5.0
+# ____: ___
+# ____: ___
