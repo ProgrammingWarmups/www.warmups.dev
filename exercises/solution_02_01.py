@@ -1,11 +1,11 @@
 def mean(numbers):
     """Compute the arithmetic mean of the values in numbers."""
     # add the numbers together
-    s = sum(numbers)
+    numbers_sum = sum(numbers)
     # count the values in numbers
-    N = len(numbers)
+    numbers_count = len(numbers)
     # compute the arithmetic mean
-    arithmetic_mean = number_sum / number_count
+    arithmetic_mean = numbers_sum / numbers_count
     return arithmetic_mean
 
 # create a list of numbers
