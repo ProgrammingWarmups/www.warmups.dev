@@ -8,7 +8,7 @@ type: chapter
 id: 1
 ---
 
-<!-- EXERCISE -->
+<!-- EXERCISE { -->
 
 <exercise id="1" title="Parts of a Program">
 
@@ -35,7 +35,9 @@ id: 1
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
 
 <exercise id="2" title="Check: Parts of a Program">
 
@@ -77,7 +79,9 @@ Nope, comments are human-readable reminders of the code's behavior.
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
 
 <exercise id="3" title="Running a Program">
 
@@ -109,7 +113,9 @@ create new data."
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
 
 <exercise id="4" title="Check: Running a Program">
 
@@ -152,7 +158,7 @@ No, this line of source code does not calculate the number of values in the list
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE { -->
 
 <exercise id="5" title="Modifying a Program's Source Code">
 
@@ -176,7 +182,9 @@ No, this line of source code does not calculate the number of values in the list
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
 
 <exercise id="6" title="Check: Modifying a Program's Source Code">
 
@@ -219,7 +227,9 @@ Yes, that is the correct description of this program's behavior.
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
 
 <exercise id="7" title="Stretch: What Happens When a Program Runs?">
 
@@ -248,3 +258,5 @@ print(f"Mean: {mean}")
 - Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
 
 </exercise>
+
+<!-- EXERCISE } -->
