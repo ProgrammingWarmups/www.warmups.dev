@@ -8,7 +8,7 @@ type: chapter
 id: 2
 ---
 
-<!-- EXERCISE -->
+<!-- EXERCISE { -->
 
 <exercise id="1" title="Creating a Function">
 
@@ -36,9 +36,11 @@ id: 2
 
 </codeblock>
 
+<!-- EXERCISE } -->
+
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE { -->
 
 <exercise id="2" title="Check: Creating a Function">
 
@@ -79,7 +81,9 @@ Actually, `len` is a function defined by the language and `mean` is a user-defin
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
 
 <exercise id="3" title="Creating Multiple Functions">
 
@@ -106,7 +110,9 @@ Actually, `len` is a function defined by the language and `mean` is a user-defin
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
 
 <exercise id="4" title="Check: Creating Multiple Functions">
 
@@ -157,7 +163,9 @@ Actually, both `display` and `mean` are user-defined functions created by a prog
 
 </exercise>
 
-<!-- EXERCISE -->
+<!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
 
 <exercise id="5" title="Using External Functions">
 
@@ -183,3 +191,5 @@ Actually, both `display` and `mean` are user-defined functions created by a prog
 </codeblock>
 
 </exercise>
+
+<!-- EXERCISE } -->
