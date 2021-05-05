@@ -7,6 +7,6 @@ def read(filename):
 def display(contents):
     print(contents)
 
-emails_file = "emails.txt"
+emails_file = "exercises/emails.txt"
 emails_text = read(emails_file)
 display(emails_text)
