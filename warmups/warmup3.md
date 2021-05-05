@@ -36,8 +36,8 @@ id: 3
 - Fill in the `_` to reference the correct variables
 - Answer these questions as you study this program:
   - What is the output produced by this program?
-  - What is the purpose of a user-defined function?
-  - What is the input, output, and behavior of `mean`?
+  - What is the input, output, and behavior of `read`?
+  - What is the input, output, and behavior of `display`?
 
 </codeblock>
 
