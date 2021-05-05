@@ -1,7 +1,7 @@
 ---
-title: 'Warmup 3: How could a Python program search through a file?'
+title: 'Warmup 3: How to Search the Contents of a File?'
 description:
-  'Learn how create a Python program that reads in a file finds matching contents'
+  "Discover how to create a useful Python program that searches a file's contents"
 prev: /warmup2
 next: null
 type: chapter
