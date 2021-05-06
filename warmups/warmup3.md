@@ -267,3 +267,59 @@ Actually, the correct order would be to call `read`, then `search`, and finally 
 </exercise>
 
 <!-- EXERCISE } -->
+
+<exercise id="7" title="Stretch: How to Search the Contents of a File?">
+
+```python
+import pathlib
+from rich import print
+
+def read(file_name):
+    # create a Path object to the file
+    file_path = pathlib.Path(file_name)
+    # read the text of the file
+    file_text = file_path.read_text()
+    # return the file's contents
+    return file_text
+
+def display(lines):
+    # there are lines of text, so display them
+    if len(lines) != 0:
+        comma = "\n"
+        lines_display = comma.join(map(str, lines))
+        print(":smile: Here are the matches!")
+        print(lines_display)
+    # there are no lines of text, display a message
+    else:
+        print(":cry: Sorry, no matches!")
+
+def search(file_contents, email_address):
+    # display the email address to find
+    print(f":mag_right: Searching for {email_address}")
+    matching_lines = []
+    # search through each line in the file for the email address
+    for line in iter(file_contents.splitlines()):
+        if email_address in line:
+            matching_lines.append(line)
+    # return the list of all matching email address(es)
+    return matching_lines
+```
+
+- This source code segment illustrates the following parts of a program:
+  - A `read` function that uses then `Pathlib.Path` and `read_text` to access a file's contents
+  - A `search` function that iterates through each line in a string and looks for a matching email
+  - A `display` function that prints one of two suitable labels and any lines in a list
+- This source code segment also includes the following Python constructs:
+    - A `for` loop that can iterate through each line of a string
+    - An `if` statement that checks to see if a lists length is not zero
+    - A `return` statement that creates output for a function
+- This source code would not work as well as it does without these features:
+    - A language-defined package called `pathlib` that supports accessing and reading files
+    - Language-defined functions like `join`, `map`, and `iter` that manipulate and create variables
+    - An externally defined package called `rich` that provides a `print` function that decodes emojis
+
+- Questions or comments about this warmup? <a href = "https://github.com/gkapfham/www.warmups.dev/discussions">Join the discussion!</a>
+
+</exercise>
+
+<!-- EXERCISE } -->
