@@ -306,12 +306,12 @@ def search(file_contents, email_address):
 ```
 
 - This source code segment illustrates the following parts of a program:
-  - A `read` function that uses then `Pathlib.Path` and `read_text` to access a file's contents
+  - A `read` function that uses both `Pathlib.Path` and `read_text` to access a file's contents
   - A `search` function that iterates through each line in a string and looks for a matching email
-  - A `display` function that prints one of two suitable labels and any lines in a list
+  - A `display` function that prints one of two suitable labels and then any lines in a list
 - This source code segment also includes the following Python constructs:
     - A `for` loop that can iterate through each line of a string
-    - An `if` statement that checks to see if a lists length is not zero
+    - An `if` statement that checks to see if a list's length is not zero
     - A `return` statement that creates output for a function
 - This source code would not work as well as it does without these features:
     - A language-defined package called `pathlib` that supports accessing and reading files
