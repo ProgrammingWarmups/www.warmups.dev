@@ -201,3 +201,70 @@ Actually, it checks to see if the current `email_address` is in the line of text
 
 <!-- EXERCISE } -->
 
+<!-- EXERCISE { -->
+
+<exercise id="6" title="Check: Fixing a File Searching Program">
+
+```python
+import pathlib
+from rich import print
+
+def read(file_name):
+    # create a Path object to the file
+    file_path = pathlib.Path(file_name)
+    # read the text of the file
+    file_text = file_path.read_text()
+    # return the file's contents
+    return file_text
+
+def display(lines):
+    # there are lines of text, so display them
+    if len(lines) != 0:
+        comma = "\n"
+        lines_display = comma.join(map(str, lines))
+        print(":smile: Here are the matches!")
+        print(lines_display)
+    # there are no lines of text, display a message
+    else:
+        print(":cry: Sorry, no matches!")
+
+def search(file_contents, email_address):
+    # display the email address to find
+    print(f":mag_right: Searching for {email_address}")
+    matching_lines = []
+    # search through each line in the file for the email address
+    for line in iter(file_contents.splitlines()):
+        if email_address in line:
+            matching_lines.append(line)
+    # return the list of all matching email address(es)
+    return matching_lines
+
+```
+
+In this program, what is the best order in which to call the functions `read`, `display`, and `search`?
+
+<choice>
+
+<opt text="First, <code>read</code> the file, then <code>search</code> for an email, and finally <code>display</code> the matches" correct="true">
+
+Yes, the correct order would be to call `read`, then `search`, and finally `display`.
+
+</opt>
+
+<opt text="First, <code>search</code> for an email, then <code>read</code> the file, and finally <code>display</code> the matches">
+
+Actually, the correct order would be to call `read`, then `search`, and finally `display`.
+
+</opt>
+
+<opt text="First, <code>display</code> the matches, then <code>read</code> the file, and finally <code>read</code> the file">
+
+Actually, the correct order would be to call `read`, then `search`, and finally `display`.
+
+</opt>
+
+</choice>
+
+</exercise>
+
+<!-- EXERCISE } -->
