@@ -37,9 +37,9 @@ id: 2
 
 </codeblock>
 
-<!-- EXERCISE } -->
-
 </exercise>
+
+<!-- EXERCISE } -->
 
 <!-- EXERCISE { -->
 
