@@ -238,7 +238,6 @@ def search(file_contents, email_address):
             matching_lines.append(line)
     # return the list of all matching email address(es)
     return matching_lines
-
 ```
 
 In this program, what is the best order in which to call the functions `read`, `display`, and `search`?
