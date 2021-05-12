@@ -20,5 +20,5 @@ emails_file = "exercises/emails.txt"
 emails_text = read(emails_file)
 # TODO: display the text of the email file
 display(___________)
-# TODO: fill in the comment with the correct number
+# TODO: run code, fill in the comment with the correct number, then submit
 # there are __ email addresses in the file
