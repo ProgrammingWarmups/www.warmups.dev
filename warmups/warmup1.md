@@ -52,7 +52,7 @@ mean = s / N
 print(f"Mean: {mean}")
 ```
 
-What constructs are evident in this program?
+Which one of these constructs is evident in this program?
 
 <choice>
 
