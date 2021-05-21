@@ -36,6 +36,13 @@ npm run dev                # Run the development server
 npm run build              # Build the entire site
 ```
 
+This `npm` needs to be version 10.22.0, so you first have to make sure that you're entering these commands with that
+version. To do that, in your bash terminal, enter the following to install that version and use it:
+
+```bash
+nvm install 10.22.0
+```
+
 ## Setup for and Use of Binder
 
 The [`requirements.txt`](binder/requirements.txt) in the repository defines the
