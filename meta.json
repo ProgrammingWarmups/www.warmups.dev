@@ -19,7 +19,8 @@
     "footerLinks": [
         { "text": "warmups.dev", "url": "https://warmups.dev" },
         { "text": "report an issue", "url": "https://github.com/gkapfham/www.warmups.dev/issues" },
-        { "text": "join the discussion", "url": "https://github.com/gkapfham/www.warmups.dev/discussions" }
+        { "text": "join the discussion", "url": "https://github.com/gkapfham/www.warmups.dev/discussions" },
+        { "text": "powered by netlify", "url": "https://www.netlify.com/" }
     ],
     "theme": "#0288D1"
 }
