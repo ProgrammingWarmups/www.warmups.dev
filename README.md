@@ -36,19 +36,14 @@ npm run dev                # Run the development server
 npm run build              # Build the entire site
 ```
 
-This node needs to be version 10.22.0, so you first have to make sure that you're entering these commands with that
+This Node.js needs to be version 10.22.0, so you first have to make sure that you're entering these commands with that
 version. To do that, in your bash terminal, enter the following to install that version and use it:
 
 ```bash
 nvm install 10.22.0
 ```
 
-`nvm` stands for Node Version Manager, and it acts like pipenv for Python, where it allows you to switch between different `Node.js` versions. `Node.js` a runtime environment that runs websites by executing Javascript code.
-
-## Node.js References
-
-[npm](https://www.npmjs.com)
-[nvm](https://heynode.com/tutorial/install-nodejs-locally-nvm)
+[nvm](https://heynode.com/tutorial/install-nodejs-locally-nvm) stands for Node Version Manager, and it acts like pipenv for Python, where it allows you to switch between different `Node.js` versions. `Node.js` is a runtime environment that runs websites by executing Javascript code. [npm](https://www.npmjs.com) stands for Node Package Manager, where it keeps track of all of the modules within the web application that `Node.js` recognizes.
 
 ## Setup for and Use of Binder
 
