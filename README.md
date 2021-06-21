@@ -32,7 +32,7 @@ version. To do that, in your bash terminal, enter the following to install that 
 nvm install 10.22.0
 ```
 
-[nvm](https://heynode.com/tutorial/install-nodejs-locally-nvm) stands for Node Version Manager, and it acts like pipenv for Python, where it allows you to switch between different `Node.js` versions. `Node.js` is a runtime environment that runs websites by executing Javascript code. [npm](https://www.npmjs.com) stands for Node Package Manager, where it keeps track of all of the modules within a web application.
+[nvm](https://heynode.com/tutorial/install-nodejs-locally-nvm) stands for Node Version Manager, and it acts like pipenv for Python, which allows you to switch between different `Node.js` versions. `Node.js` is a runtime environment that runs websites by executing Javascript code. [npm](https://www.npmjs.com) stands for Node Package Manager, which keeps track of all of the modules within a web application.
 
 To start the local development server, install [Gatsby](https://gatsbyjs.org)
 and then all other dependencies. This should serve up the app on
