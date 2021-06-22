@@ -9,14 +9,26 @@ import { Button } from '../components/button'
 
 import classes from '../styles/chapter.module.sass'
 
+import warmupOrder from '../../warmups/order'
+
 const Template = ({ data }) => {
     const { markdownRemark, site } = data
     const { courseId } = site.siteMetadata
-    const { frontmatter, htmlAst } = markdownRemark
-    const { title, description, prev, next, id } = frontmatter
+    const { frontmatter, htmlAst, fields } = markdownRemark
+    const { title, description, id } = frontmatter
     const [activeExc, setActiveExc] = useState(null)
     const [completed, setCompleted] = useLocalStorage(`${courseId}-completed-${id}`, [])
     const html = renderAst(htmlAst)
+    const slug = fields.slug
+    const warmupIndex = warmupOrder.indexOf(slug)
+    if (warmupIndex < 0) {
+        console.error(`Could not find ${slug} in warmup order.
+        Please add to warmup order file to ensure that 'Previous Warmup' and 'Next Warmup' buttons behave as expected.`)
+    }
+    const prev = warmupIndex <= 0 ? null // If first warmup, no 'Previous Warmup' button
+        : warmupOrder[warmupIndex - 1]
+    const next = warmupIndex >= warmupOrder.length - 1 ? null // If last warmup, no 'Next Warmup' button
+        : warmupOrder[warmupIndex + 1]
     const buttons = [
         { slug: prev, text: '« Previous Warmup' },
         { slug: next, text: 'Next Warmup »' },
@@ -58,8 +70,9 @@ export const pageQuery = graphql`
                 id
                 title
                 description
-                next
-                prev
+            },
+            fields {
+                slug
             }
         }
     }
