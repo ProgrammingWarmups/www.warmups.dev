@@ -1,9 +1,8 @@
 ---
-title: 'Warmup 1: What Happens When a Program Runs?'
+title: 'What Happens When a Program Runs?'
 description:
  'Investigate the static structure and dynamic behavior of a program'
-prev: null
-next: /warmup2
+slug: /warmup1
 type: chapter
 id: 1
 ---

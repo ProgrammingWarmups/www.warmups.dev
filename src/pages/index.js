@@ -7,9 +7,13 @@ import Logo from '../../static/logo.svg'
 
 import classes from '../styles/index.module.sass'
 
+import warmupOrder from '../../warmups/order'
+
 export default ({ data }) => {
   const siteMetadata = data.site.siteMetadata
-  const chapters = data.allMarkdownRemark.edges.map(({ node }) => ({
+  const chapters = data.allMarkdownRemark.edges.sort(( a, b ) => {
+    return warmupOrder.indexOf(a.node.fields.slug) - warmupOrder.indexOf(b.node.fields.slug)
+  }).map(({ node }) => ({
     slug: node.fields.slug,
     title: node.frontmatter.title,
     description: node.frontmatter.description,
@@ -31,11 +35,11 @@ export default ({ data }) => {
         </div>
       </section>
 
-  {chapters.map(({ slug, title, description }) => (
+  {chapters.map(({ slug, title, description }, index) => (
     <section key={slug} className={classes.chapter}>
       <h2 className={classes.chapterTitle}>
         <Link hidden to={slug}>
-          {title}
+          Warmup {index + 1}: {title}
         </Link>
       </h2>
       <p className={classes.chapterDesc}>
