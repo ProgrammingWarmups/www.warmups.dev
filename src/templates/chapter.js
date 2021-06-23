@@ -15,11 +15,12 @@ const Template = ({ data }) => {
     const { markdownRemark, site } = data
     const { courseId } = site.siteMetadata
     const { frontmatter, htmlAst, fields } = markdownRemark
-    const { title, description, id } = frontmatter
+    const { title, description } = frontmatter
     const [activeExc, setActiveExc] = useState(null)
-    const [completed, setCompleted] = useLocalStorage(`${courseId}-completed-${id}`, [])
-    const html = renderAst(htmlAst)
     const slug = fields.slug
+    // Use slug (which should be unique) without the starting slash to name array for tracking completed exercises
+    const [completed, setCompleted] = useLocalStorage(`${courseId}-completed-${slug.slice(1)}`, [])
+    const html = renderAst(htmlAst)
     const warmupIndex = warmupOrder.indexOf(slug)
     if (warmupIndex < 0) {
         console.error(`Could not find ${slug} in warmup order.
@@ -67,10 +68,9 @@ export const pageQuery = graphql`
         markdownRemark(fields: { slug: { eq: $slug } }) {
             htmlAst
             frontmatter {
-                id
                 title
                 description
-            },
+            }
             fields {
                 slug
             }

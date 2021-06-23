@@ -4,7 +4,6 @@ description:
   'Learn how to organize a program into separate functions with distinguished behavior'
 slug: /warmup2
 type: chapter
-id: 2
 ---
 
 <!-- EXERCISE { -->

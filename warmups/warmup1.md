@@ -4,7 +4,6 @@ description:
  'Investigate the static structure and dynamic behavior of a program'
 slug: /warmup1
 type: chapter
-id: 1
 ---
 
 <!-- EXERCISE { -->

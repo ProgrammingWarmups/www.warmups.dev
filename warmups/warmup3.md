@@ -4,7 +4,6 @@ description:
   "Discover how to create a useful Python program that searches a file's contents"
 slug: /warmup3
 type: chapter
-id: 3
 ---
 
 <!-- EXERCISE { -->
