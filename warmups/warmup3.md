@@ -29,7 +29,7 @@ id: 3
 
 <hr>
 
-<codeblock id="03_01">
+<codeblock id="warmup3_01">
 
 - Fill in the `_` to record the program's output
 - Fill in the `_` to reference the correct variables
@@ -106,7 +106,7 @@ Yes, the program will crash because the `pathlib` package was not imported.
 
 <hr>
 
-<codeblock id="03_03">
+<codeblock id="warmup3_03">
 
 - Fill in the `_` for an email address not found in the file
 - Fill in the `_` for an email address found in the file
@@ -186,7 +186,7 @@ Actually, it checks to see if the current `email_address` is in the line of text
 
 <hr>
 
-<codeblock id="03_05">
+<codeblock id="warmup3_05">
 
 - Answer these questions as you study this program:
   - What is the purpose of the `read` function?
