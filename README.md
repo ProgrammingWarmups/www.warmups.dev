@@ -55,7 +55,7 @@ warmup.
 `slug` is the path at which the warmup will be located on the site. It can
 usually just be the name of the warmup MD document. 
 3. Add the `slug` to `warmups/order.js` in the position it belongs.
-4. Within the new `warmups/` MD document, the `<codeblock> elements
+4. Within the new `warmups/` MD document, the `<codeblock>` elements
 should have an `id` that reflects the name of the MD document.
 5. When adding Python exercises in `exercises/`, use this `<codeblock>` `id` in
 the names of the corresponding starter, solution, and test files.
