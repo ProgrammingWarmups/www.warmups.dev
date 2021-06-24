@@ -24,7 +24,7 @@ const Template = ({ data }) => {
     const warmupIndex = warmupOrder.indexOf(slug)
     if (warmupIndex < 0) {
         console.error(`Could not find ${slug} in warmup order.
-        Please add to warmup order file to ensure that 'Previous Warmup' and 'Next Warmup' buttons behave as expected.`)
+        Please add it to the warmup order file to ensure that 'Previous Warmup' and 'Next Warmup' buttons behave as expected.`)
     }
     const prev = warmupIndex <= 0 ? null // If first warmup, no 'Previous Warmup' button
         : warmupOrder[warmupIndex - 1]
