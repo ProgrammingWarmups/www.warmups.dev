@@ -1,11 +1,9 @@
 ---
-title: 'Warmup 2: How to Create a Program with Functions?'
+title: 'How to Create a Program with Functions?'
 description:
   'Learn how to organize a program into separate functions with distinguished behavior'
-prev: /warmup1
-next: /warmup3
+slug: /warmup2
 type: chapter
-id: 2
 ---
 
 <!-- EXERCISE { -->
@@ -26,7 +24,7 @@ id: 2
 
 <hr>
 
-<codeblock id="02_01">
+<codeblock id="warmup2_01">
 
 - Fill in the `_` to record the program's output
 - Fill in the `_` to call the correct functions
@@ -99,7 +97,7 @@ Actually, `len` is a function defined by the language and `mean` is a user-defin
 
 <hr>
 
-<codeblock id="02_03">
+<codeblock id="warmup2_03">
 
 - Fill in the `_` for the names of variables and functions
 - Answer these questions as you study this program:
@@ -180,7 +178,7 @@ Actually, both `display` and `mean` are user-defined functions created by a prog
 
 <hr>
 
-<codeblock id="02_05">
+<codeblock id="warmup2_05">
 
 - Fill in the `_` to call the correct functions
 - Fill in the `_` to display the required emojis
