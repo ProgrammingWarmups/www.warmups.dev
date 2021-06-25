@@ -178,7 +178,7 @@ Referring to [W3School's List of Python Keywords](https://www.w3schools.com/pyth
 </opt>
 
 <opt text="<code>from_location</code>" correct=true>
-While variables may not <b><i>be</i></b> a keyword, they can certainly contain keywords!
+While variable names may not <b><i>be</i></b> a keyword, they can certainly contain keywords!
 </opt>
 
 <opt text="<code>with</code>">
