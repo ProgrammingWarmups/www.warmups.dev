@@ -23,7 +23,7 @@ The code below computes properties of a cuboid with a length of `10`, width of `
 
 ***Update the code to compute properties of a cuboid with a length of `13`, width of `14`, and height of `15`.***
 
-<hr>
+<br>
 
 <codeblock id="intro_to_variables_01a">
 
@@ -37,7 +37,7 @@ Here's the same code, but using variables to contain the length, width, and heig
 
 ***Update the code to compute properties of a cuboid with a length of `13`, width of `14`, and height of `15`.***
 
-<hr>
+<br>
 
 <codeblock id="intro_to_variables_01b">
 
@@ -48,6 +48,8 @@ Here's the same code, but using variables to contain the length, width, and heig
 A bit easier, right? Now, how do you know when to use variables?
 
 **A good rule of thumb is to use variables to store data that could be reused later in the code.**
+
+<br>
 
 </exercise>
 
@@ -88,9 +90,11 @@ Variables do not print output to the console.
     - Can only contain letters, numbers, and underscores
     - Are case-sensitive
 
+<br>
+
 Can you fix the variable naming mistakes below so that the code prints `John is 22 years old and likes to eat apples.`?
 
-<hr>
+<br>
 
 <codeblock id="intro_to_variables_03">
 
