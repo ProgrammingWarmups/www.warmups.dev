@@ -94,9 +94,36 @@ Can you fix the variable naming mistakes below so that the code prints `John is 
 
 <codeblock id="intro_to_variables_03">
 
-- All three variables have issues with their naming
+- All three variables have issues with their names
 
 </codeblock>
+
+</exercise>
+
+<!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="4" title="Check: Naming Variables">
+
+Which of the following variables is legally named?
+
+<choice>
+
+<opt text="3rd_item">
+Variables can only start with either a letter or underscore.
+</opt>
+
+<opt text="third#_item">
+Variables can only contain letters, numbers, and underscores.
+</opt>
+
+<opt text="thIRD___it3m" correct=true>
+As strange as it looks, this is technically a legal variable name!
+Now, just because you can doesn't mean you should...
+</opt>
+
+</choice>
 
 </exercise>
 
