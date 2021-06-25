@@ -114,15 +114,15 @@ Which of the following variables is legally named?
 
 <choice>
 
-<opt text="3rd_item">
+<opt text="<code>3rd_item</code>">
 Variables can only start with either a letter or underscore.
 </opt>
 
-<opt text="third#_item">
+<opt text="<code>third#_item</code>">
 Variables can only contain letters, numbers, and underscores.
 </opt>
 
-<opt text="thIRD___it3m" correct=true>
+<opt text="<code>thIRD___it3m</code>" correct=true>
 As strange as it looks, this is technically a legal variable name!
 Now, just because you can doesn't mean you should...
 </opt>
@@ -168,20 +168,20 @@ Referring to [W3School's List of Python Keywords](https://www.w3schools.com/pyth
 
 <choice>
 
-<opt text="global">
-"global" is a Python keyword.
+<opt text="<code>global</code>">
+<code>global</code> is a Python keyword.
 </opt>
 
-<opt text="from">
-"from" is a Python keyword.
+<opt text="<code>from</code>">
+<code>from</code> is a Python keyword.
 </opt>
 
-<opt text="from_location" correct=true>
-While variables may not be a keyword, they can certainly contain keywords!
+<opt text="<code>from_location</code>" correct=true>
+While variables may not <b><i>be</i></b> a keyword, they can certainly contain keywords!
 </opt>
 
-<opt text="with">
-"with" is a Python keyword.
+<opt text="<code>with</code>">
+<code>with</code> is a Python keyword.
 </opt>
 
 
