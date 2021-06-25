@@ -159,3 +159,34 @@ Now, just because you can doesn't mean you should...
 </exercise>
 
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="6" title="Check: Reserved Words">
+
+Referring to [W3School's List of Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp), which of the following variables is legally named?
+
+<choice>
+
+<opt text="global">
+"global" is a Python keyword.
+</opt>
+
+<opt text="from">
+"from" is a Python keyword.
+</opt>
+
+<opt text="from_location" correct=true>
+While variables may not be a keyword, they can certainly contain keywords!
+</opt>
+
+<opt text="with">
+"with" is a Python keyword.
+</opt>
+
+
+</choice>
+
+</exercise>
+
+<!-- EXERCISE } -->
