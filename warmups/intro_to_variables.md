@@ -191,3 +191,17 @@ While variable names may not <b><i>be</i></b> a keyword, they can certainly cont
 </exercise>
 
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="7" title="Review: What Are Variables?">
+
+- Variables are containers that store data, which can be used or changed later in a program, and are assigned using the `=` operator
+- In Python, variable names must start with a letter or underscore, can only contain letters, numbers, and underscores, and are case-sensitive
+- Variable names must not be keywords, which are case-sensitive words reserved in Python for specific purposes
+
+<br>
+
+</exercise>
+
+<!-- EXERCISE } -->
