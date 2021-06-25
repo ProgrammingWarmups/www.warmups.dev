@@ -5,5 +5,4 @@ def test():
     assert surface_area == 1174, "Incorrect surface area. Did you update the length, width, and height?"
     # --> Must have correct volume
     assert volume == 2730, "Incorrect volume. Did you update the length, width, and height?"
-    # display a congratulations for a correct solution
     __msg__.good("Well done!")
