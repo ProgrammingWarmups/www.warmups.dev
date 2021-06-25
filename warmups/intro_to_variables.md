@@ -25,7 +25,7 @@ The code below computes properties of a cuboid with a length of `10`, width of `
 
 <hr>
 
-<codeblock id="intro_to_variables_01">
+<codeblock id="intro_to_variables_01a">
 
 - The formula for a cuboid's base area is `length × width`
 - The formula for a cuboid's surface area is `2 × (length × width) + 2 × (length × height) + 2 × (width × height)`
@@ -39,7 +39,7 @@ Here's the same code, but using variables to contain the length, width, and heig
 
 <hr>
 
-<codeblock id="intro_to_variables_02">
+<codeblock id="intro_to_variables_01b">
 
 - Only three values need to be updated
 
