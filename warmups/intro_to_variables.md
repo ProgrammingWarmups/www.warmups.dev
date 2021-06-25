@@ -137,11 +137,12 @@ Now, just because you can doesn't mean you should...
 
 <exercise id="5" title="Reserved Words">
 
-- In Python, there are keywords that are "reserved" for specific purposes and cannot be used as variable names:
+- In Python, there are case-sensitive keywords that are "reserved" for specific purposes and cannot be used as variable names. Some examples are:
     - `and`
+    - `def`
     - `return`
     - `True`
-    - and several more
+    - `while`
 - No need to memorize these keywords--instead, whenever you suspect that a variable name might be a keyword, refer to online documentation, such as [W3School's List of Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp)
 
 <br>
