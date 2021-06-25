@@ -21,7 +21,7 @@ name = "John"
 
 The code below computes properties of a cuboid with a length of `10`, width of `11`, and height of `12`.
 
-***Update the code to compute properties of a cuboid with a length of `13`, width of `14`, and height of `15`.***
+***Update the code to compute properties of a cuboid with a length of `13`, width of `14`, and height of `15`***
 
 <br>
 
@@ -35,7 +35,7 @@ The code below computes properties of a cuboid with a length of `10`, width of `
 
 Here's the same code, but using variables to contain the length, width, and height.
 
-***Update the code to compute properties of a cuboid with a length of `13`, width of `14`, and height of `15`.***
+***Update the code to compute properties of a cuboid with a length of `13`, width of `14`, and height of `15`***
 
 <br>
 
@@ -147,7 +147,7 @@ Now, just because you can doesn't mean you should...
 
 <br>
 
-***Fix the code below so that it prints `My favorite class is CMPSC 100.`.***
+***Fix the code below so that it prints `My favorite class is CMPSC 100.`***
 
 <br>
 
