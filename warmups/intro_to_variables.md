@@ -52,3 +52,29 @@ A bit easier, right? Now, how do you know when to use variables?
 </exercise>
 
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="2" title="Check: Introduction to Variables">
+
+Which of the following statements about variables is true?
+
+<choice>
+
+<opt text="Variables provide a non-executable reminder of the code's behavior">
+Variables do not provide a non-executable reminder of the code's behavior.
+</opt>
+
+<opt text="Variables store data that can be used or changed later in the program" correct="true">
+Variables store data that can be used or changed later in the program.
+</opt>
+
+<opt text="Variables print output to the console">
+Variables do not print output to the console.
+</opt>
+
+</choice>
+
+</exercise>
+
+<!-- EXERCISE } -->
