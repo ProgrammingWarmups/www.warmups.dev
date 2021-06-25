@@ -86,7 +86,7 @@ Variables do not print output to the console.
 <exercise id="3" title="Naming Variables">
 
 - In Python, there are several rules for naming variables:
-    - Must start with a letter or an underscore (`_`)
+    - Must start with a letter or underscore (`_`)
     - Can only contain letters, numbers, and underscores
     - Are case-sensitive
 
