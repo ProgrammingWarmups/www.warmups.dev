@@ -78,3 +78,26 @@ Variables do not print output to the console.
 </exercise>
 
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="3" title="Naming Variables">
+
+- In Python, there are several rules for naming variables:
+    - Must start with a letter or an underscore (`_`)
+    - Can only contain letters, numbers, and underscores
+    - Are case-sensitive
+
+Can you fix the variable naming mistakes below so that the code prints `John is 22 years old and likes to eat apples.`?
+
+<hr>
+
+<codeblock id="intro_to_variables_03">
+
+- All three variables have issues with their naming
+
+</codeblock>
+
+</exercise>
+
+<!-- EXERCISE } -->
