@@ -132,3 +132,30 @@ Now, just because you can doesn't mean you should...
 </exercise>
 
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="5" title="Reserved Words">
+
+- In Python, there are keywords that are "reserved" for specific purposes and cannot be used as variable names:
+    - `and`
+    - `return`
+    - `True`
+    - and several more
+- No need to memorize these keywords--instead, whenever you suspect that a variable name might be a keyword, refer to online documentation, such as [W3School's List of Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp)
+
+<br>
+
+***Fix the code below so that it prints `My favorite class is CMPSC 100.`.***
+
+<br>
+
+<codeblock id="intro_to_variables_05">
+
+- Rename any variables that are listed as keywords in [W3School's List of Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp)
+
+</codeblock>
+
+</exercise>
+
+<!-- EXERCISE } -->
