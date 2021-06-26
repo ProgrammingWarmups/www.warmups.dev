@@ -25,6 +25,15 @@ a build with [Binder](https://mybinder.org) for the current version of the
 
 ## Running the Site
 
+This Node.js needs to be version 10.22.0, so you first have to make sure that you're entering these commands with that
+version. To do that, in your bash terminal, enter the following to install that version and use it:
+
+```bash
+nvm install 10.22.0
+```
+
+[nvm](https://heynode.com/tutorial/install-nodejs-locally-nvm) stands for Node Version Manager, and it acts like pipenv for Python, which allows you to switch between different `Node.js` versions. `Node.js` is a runtime environment that runs websites by executing Javascript code. [npm](https://www.npmjs.com) stands for Node Package Manager, which keeps track of all of the modules within a web application.
+
 To start the local development server, install [Gatsby](https://gatsbyjs.org)
 and then all other dependencies. This should serve up the app on
 `localhost:8000`.
