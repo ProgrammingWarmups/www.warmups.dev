@@ -143,7 +143,7 @@ Now, just because you can doesn't mean you should...
     - `return`
     - `True`
     - `while`
-- No need to memorize these keywords--instead, whenever you suspect that a variable name might be a keyword, refer to online documentation, such as [W3School's List of Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp)
+- No need to memorize these keywords--instead, whenever you suspect that a variable name might be a keyword, refer to online documentation, such as [W3Schools' List of Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp)
 
 <br>
 
@@ -153,7 +153,7 @@ Now, just because you can doesn't mean you should...
 
 <codeblock id="intro_to_variables_05">
 
-- Rename any variables that are listed as keywords in [W3School's List of Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp)
+- Rename any variables that are listed as keywords in [W3Schools' List of Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp)
 
 </codeblock>
 
@@ -165,7 +165,7 @@ Now, just because you can doesn't mean you should...
 
 <exercise id="6" title="Check: Reserved Words">
 
-Referring to [W3School's List of Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp), which of the following variables is legally named?
+Referring to [W3Schools' List of Python Keywords](https://www.w3schools.com/python/python_ref_keywords.asp), which of the following variables is legally named?
 
 <choice>
 
