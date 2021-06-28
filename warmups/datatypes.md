@@ -6,6 +6,7 @@ slug: /datatypes
 type: chapter
 ---
 
+<!-- EXERCISE { -->
 <exercise id="1" title="Primary Data Types">
 
 - Python has numerous built-in types of data that can be stored in variables
@@ -52,3 +53,5 @@ For example, the code below will print `<class 'int'>`, which shows that the typ
 <br>
 
 </exercise>
+<!-- EXERCISE } -->
+
