@@ -56,3 +56,36 @@ For example, the code below will print `<class 'int'>`, which shows that the typ
 </exercise>
 <!-- EXERCISE } -->
 
+<!-- EXERCISE { -->
+
+<exercise id="2" title="Check: Primary Data Types">
+
+In the code below, what is the type of `num`?
+
+```
+num = "-123456.7"
+```
+
+<choice>
+
+<opt text="<code>int</code>">
+<code>"-123456.7"</code> is not an integer.
+</opt>
+
+<opt text="<code>float</code>">
+Though floats do contain decimal points, they are not surrounded by double quotes.
+</opt>
+
+<opt text="<code>str</code>" correct=true>
+Any value surrounded by single or double quotes is a string.
+</opt>
+
+<opt text="<code>bool</code>">
+A boolean can only be <code>True</code> or <code>False</code>.
+</opt>
+
+</choice>
+
+</exercise>
+
+<!-- EXERCISE } -->
