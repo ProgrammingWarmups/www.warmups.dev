@@ -83,7 +83,7 @@ class CodeBlock extends React.Component {
                     {
                         site {
                             siteMetadata {
-                                testTemplate
+                                testTemplateFile
                                 juniper {
                                     repo
                                     branch
@@ -104,12 +104,13 @@ class CodeBlock extends React.Component {
                     }
                 `}
                 render={data => {
-                    const { testTemplate } = data.site.siteMetadata
+                    const { testTemplateFile } = data.site.siteMetadata
                     const { repo, branch, kernelType, debug, lang } = data.site.siteMetadata.juniper
                     const files = getFiles(data)
                     const sourceFile = files[sourceId]
                     const solutionFile = files[solutionId]
                     const testFile = files[testId]
+                    const testTemplate = files[testTemplateFile]
                     return (
                         <div className={classes.root} key={this.state.key}>
                             {Juniper && (
