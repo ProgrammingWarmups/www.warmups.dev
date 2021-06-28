@@ -15,6 +15,7 @@ type: chapter
     - `int`, or integers, are whole numbers, positive or negative (`0`, `23`, `-123456`)
     - `float` are decimal numbers (`0.0`, `3.14159`, `-123456.7`)
     - `str`, or strings, are sequences of characters (`'a'`, `"hello"`, `"3.14159"`)
+        - They are normally used for textual data
         - Notice that strings are defined using single (`'`) or double (`"`) quotes
     - `bool`, or booleans, can be either `True` or `False`
         - `True` and `False` are case-sensitive, so make sure they are capitalized!
