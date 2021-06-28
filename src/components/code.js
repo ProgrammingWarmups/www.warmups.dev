@@ -62,10 +62,11 @@ class CodeBlock extends React.Component {
 
     render() {
         const { Juniper, showSolution } = this.state
-        const { id, source, solution, test, children } = this.props
+        const { id, source, solution, test, interactive, children } = this.props
         const sourceId = source || `starter_${id}`
         const solutionId = solution || `solution_${id}`
         const testId = test || `test_${id}`
+        const isInteractive = !(/false/i).test(interactive) // Use regex to allow case-insensitivity
         const juniperClassNames = {
             cell: classes.cell,
             input: classes.input,
@@ -143,7 +144,7 @@ class CodeBlock extends React.Component {
                                     {showSolution ? solutionFile : sourceFile}
                                 </Juniper>
                             )}
-                            <Hint actions={hintActions}>{children}</Hint>
+                            {isInteractive && (<Hint actions={hintActions}>{children}</Hint>)}
                         </div>
                     )
                 }}
