@@ -10,8 +10,7 @@ import { window } from 'browser-monads'
 class Juniper extends React.Component {
     outputRef = null
     inputRef = null
-    state = { content: null, cm: null, kernel: null, renderers: null, fromStorage: null }
-    showOutputBox = false
+    state = { content: null, cm: null, kernel: null, renderers: null, fromStorage: null, showOutputBox: false }
 
     static defaultProps = {
         children: '',
@@ -82,8 +81,8 @@ class Juniper extends React.Component {
         this.setState({ cm })
 
         const runCode = wrapper => {
+            this.setState({showOutputBox: true})
             const value = cm.getValue()
-            this.showOutputBox = true
             this.execute(outputArea, wrapper ? wrapper(value) : value)
         }
         const setValue = value => cm.setValue(value)
@@ -286,7 +285,7 @@ class Juniper extends React.Component {
                         this.outputRef = x
                     }}
                     className={this.props.classNames.output}
-                    style={{display: this.showOutputBox ? 'block' : 'none'}}
+                    style={{display: this.state.showOutputBox ? 'block' : 'none'}}
                 />
             </div>
         )
