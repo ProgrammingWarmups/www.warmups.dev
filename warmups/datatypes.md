@@ -89,3 +89,44 @@ A boolean can only be <code>True</code> or <code>False</code>.
 </exercise>
 
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+<exercise id="3" title="Arithmetic Operators">
+
+In Python, arithmetic operators are used perform mathematical operations on numerical values.
+
+| Operator | Name |
+|----------|-----------|
+| `+` | Addition |
+| `-` | Subtraction |
+| `*` | Multiplication |
+| `/` | Division |
+| `**` | Exponentiation |
+| `%` | Modulus |
+| `//` | Floor division |
+
+You are probably familiar with addition, subtraction, multiplication, division, and exponentiation.
+
+<br>
+
+<codeblock id="datatypes_03a" interactive=false>
+</codeblock>
+
+Modulus and floor division are much less common outside of computer science, so let's take a closer look.
+
+The modulus operator (`%`) divides the left operand by the right operand and returns the remainder.
+
+<br>
+
+<codeblock id="datatypes_03b" interactive=false>
+</codeblock>
+
+The floor division operator (`//`) divides the left operand by the right operand and rounds down to the closest integer.
+
+<br>
+
+<codeblock id="datatypes_03c" interactive=false>
+</codeblock>
+
+</exercise>
+<!-- EXERCISE } -->
