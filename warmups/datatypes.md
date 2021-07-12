@@ -105,7 +105,7 @@ In Python, arithmetic operators are used perform mathematical operations on nume
 | `%` | Modulus |
 | `//` | Floor division |
 
-You are probably familiar with addition, subtraction, multiplication, division, and exponentiation.
+You are probably familiar with addition, subtraction, multiplication, division, and exponentiation, which are demonstrated below.
 
 <br>
 
