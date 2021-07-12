@@ -72,7 +72,7 @@ const Layout = ({ isHome, title, description, children }) => {
                                             />
                                         )}
 
-                                        <p>An innovator in technical areas like software testing, <Link variant="secondary" to="https://www.gregorykapfhammer.com">Gregory M. Kapfhammer</Link> develops and maintains <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link>. No stranger to being stuck on a programming problem, Gregory hopes that <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> will help learners practice Python programming with their web browser.</p>
+                                        <p>Innovators in programming education, <Link variant="secondary" to="https://www.gregorykapfhammer.com">Gregory M. Kapfhammer</Link> and <Link variant="secondary" to="https://github.com/mariakimheinert">Maria Kim Heinert</Link> develop and maintain <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link>. No stranger to being stuck on a programming problem, they hope that <Link variant="secondary" to="https://warmups.dev">warmups.dev</Link> will help learners practice Python programming with their web browser.</p>
 
                                     </section>
 
