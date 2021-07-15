@@ -140,5 +140,17 @@ For example, the code below performs the addition operation on variables `a` and
 
 <codeblock id="datatypes_03d" interactive=false>
 </codeblock>
+
+***In the following code, assign the value of the variable `remainder` to the remainder of dividing `10` by `3`.***
+
+<br>
+
+<codeblock id="datatypes_03e">
+
+- Make sure that all of the question marks (<code>?</code>) have been replaced by either values or operators
+- Remember that the modulus operator (<code>%</code>) calculates the remainder of dividing the left operand by the right operand
+
+</codeblock>
+
 </exercise>
 <!-- EXERCISE } -->
