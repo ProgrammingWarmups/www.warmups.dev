@@ -1,7 +1,5 @@
-a = 2
-b = 4
-print(f"a + b = {a + b}")
-print(f"a - b = {a - b}")
-print(f"a * b = {a * b}")
-print(f"a / b = {a / b}")
-print(f"a ** b = {a ** b}")
+print(f"2 + 4 = {2 + 4}")
+print(f"2 - 4 = {2 - 4}")
+print(f"2 * 4 = {2 * 4}")
+print(f"2 / 4 = {2 / 4}")
+print(f"2 ** 4 = {2 ** 4}")
