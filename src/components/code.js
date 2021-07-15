@@ -62,10 +62,11 @@ class CodeBlock extends React.Component {
 
     render() {
         const { Juniper, showSolution } = this.state
-        const { id, source, solution, test, children } = this.props
+        const { id, source, solution, test, interactive, children } = this.props
         const sourceId = source || `starter_${id}`
         const solutionId = solution || `solution_${id}`
         const testId = test || `test_${id}`
+        const isInteractive = !(/false/i).test(interactive) // Use regex to allow case-insensitivity
         const juniperClassNames = {
             cell: classes.cell,
             input: classes.input,
@@ -83,7 +84,7 @@ class CodeBlock extends React.Component {
                     {
                         site {
                             siteMetadata {
-                                testTemplate
+                                testTemplateFile
                                 juniper {
                                     repo
                                     branch
@@ -104,12 +105,13 @@ class CodeBlock extends React.Component {
                     }
                 `}
                 render={data => {
-                    const { testTemplate } = data.site.siteMetadata
+                    const { testTemplateFile } = data.site.siteMetadata
                     const { repo, branch, kernelType, debug, lang } = data.site.siteMetadata.juniper
                     const files = getFiles(data)
                     const sourceFile = files[sourceId]
                     const solutionFile = files[solutionId]
                     const testFile = files[testId]
+                    const testTemplate = files[testTemplateFile]
                     return (
                         <div className={classes.root} key={this.state.key}>
                             {Juniper && (
@@ -142,7 +144,7 @@ class CodeBlock extends React.Component {
                                     {showSolution ? solutionFile : sourceFile}
                                 </Juniper>
                             )}
-                            <Hint actions={hintActions}>{children}</Hint>
+                            {isInteractive && (<Hint actions={hintActions}>{children}</Hint>)}
                         </div>
                     )
                 }}
