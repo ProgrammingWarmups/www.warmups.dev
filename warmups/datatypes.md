@@ -220,3 +220,33 @@ This might seem like an obvious mistake, but this is actually a very common type
 
 </exercise>
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="6" title="Check: Assignment Operators">
+
+If `b = 5`, which of the following expressions, once executed, will result in `b` having the value `3`? 
+
+<choice>
+
+<opt text="<code>b += 2</code>">
+This will result in <code>b</code> having the value <code>7</code>.
+</opt>
+
+<opt text="<code>b = 2</code>">
+This will result in <code>b</code> having the value <code>2</code>.
+</opt>
+
+<opt text="<code>b /= 2</code>">
+This will result in <code>b</code> having the value <code>2.5</code>.
+</opt>
+
+<opt text="<code>b -= 2</code>" correct=true>
+This will result in <code>b</code> having the value <code>3</code>.
+</opt>
+
+</choice>
+
+</exercise>
+
+<!-- EXERCISE } -->
