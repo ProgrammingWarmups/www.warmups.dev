@@ -132,5 +132,13 @@ As shown below, since the result of dividing `7` by `2` is `3.5`, using the floo
 <codeblock id="datatypes_03c" interactive=false>
 </codeblock>
 
+You can use operators with variables as well.
+
+For example, the code below performs the addition operation on variables `a` and `b` and stores the result in another variable named `result`.
+
+<br>
+
+<codeblock id="datatypes_03d" interactive=false>
+</codeblock>
 </exercise>
 <!-- EXERCISE } -->
