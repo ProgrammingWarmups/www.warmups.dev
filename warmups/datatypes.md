@@ -154,3 +154,33 @@ For example, the code below performs the addition operation on variables `a` and
 
 </exercise>
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="4" title="Check: Arithmetic Operators">
+
+Which of the following operators divides the left operand by the right operand and rounds down to the closest integer?
+
+<choice>
+
+<opt text="Division (<code>/</code>)">
+The division operator simply divides the left operand by the right operand.
+</opt>
+
+<opt text="Floor division (<code>//</code>)" correct=true>
+The floor division operator divides the left operand by the right operand and rounds down to the closest integer.
+</opt>
+
+<opt text="Modulus (<code>%</code>)">
+The modulus operator divides the left operand by the right operand and returns the remainder.
+</opt>
+
+<opt text="Exponentiation (<code>**</code>)">
+The exponentiation operator raises the left operand to the right operand.
+</opt>
+
+</choice>
+
+</exercise>
+
+<!-- EXERCISE } -->
