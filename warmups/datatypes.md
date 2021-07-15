@@ -200,7 +200,7 @@ This expression could also be written as `a += 2`, which uses the `+=` assignmen
 
 Similarly, the expression `b = b - 4` could be rewritten as `b -= 4`, using the `-=` assignment operator to assign `b` to the value of itself minus `4`.
 
-In fact, there are numerous assignment operators that can be used to simplify various operations. There is no need to memorize all of them, since [they can quickly be found online](https://www.w3schools.com/python/gloss_python_assignment_operators.asp), but it is good to keep them in mind when you find yourself assigning the value of a variable to the result of an operation involving itself.
+In fact, there are numerous other assignment operators that can be used to simplify various operations. There is no need to memorize all of them, since [they can quickly be found online](https://www.w3schools.com/python/gloss_python_assignment_operators.asp), but it is good to keep them in mind when you find yourself assigning the value of a variable to the result of an operation involving itself.
 
 <br>
 
