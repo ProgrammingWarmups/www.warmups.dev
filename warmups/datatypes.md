@@ -184,3 +184,39 @@ The exponentiation operator raises the left operand to the right operand.
 </exercise>
 
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+<exercise id="5" title="Assignment Operators">
+
+In programming, there are many times when you want to add or subtract from a variable's current value.
+
+The most obvious way to write this code would look something like `a = a + 2` or `b = b - 4`.
+
+However, there are even simpler ways to achieve this behavior using assignment operators.
+
+In a [previous warmup](https://warmups.dev/intro_to_variables), we were introduced to the `=` assignment operator, which assigns the left-hand variable to the right-hand value. In the example `a = a + 2`, the variable `a` is assigned the value of itself plus `2`.
+
+This expression could also be written as `a += 2`, which uses the `+=` assignment operator. The `+=` assignment operator assigns the left-hand variable, `a`, to the value of itself plus the right-hand value `2`.
+
+Similarly, the expression `b = b - 4` could be rewritten as `b -= 4`, using the `-=` assignment operator to assign `b` to the value of itself minus `4`.
+
+In fact, there are numerous assignment operators that can be used to simplify various operations. There is no need to memorize all of them, since [they can quickly be found online](https://www.w3schools.com/python/gloss_python_assignment_operators.asp), but it is good to keep them in mind when you find yourself assigning the value of a variable to the result of an operation involving itself.
+
+<br>
+
+***The following code should increase the value of the variable `count`, initially set to `3`, by `1`, so that it becomes `4`. However, the print statement reveals that by the end, `count` is not `4`, but rather equal to `1`. Can you spot the bug and fix the code so that `count` is instead increased by `1` and the end count is `4`?***
+
+<br>
+
+<codeblock id="datatypes_05">
+
+- Make sure that the correct assignment operator is being used to set count equal to itself plus <code>1</code>
+
+</codeblock>
+
+This might seem like an obvious mistake, but this is actually a very common type of bug that is easy to miss!
+
+<br>
+
+</exercise>
+<!-- EXERCISE } -->
