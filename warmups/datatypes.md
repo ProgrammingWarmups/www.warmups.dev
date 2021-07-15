@@ -148,7 +148,7 @@ For example, the code below performs the addition operation on variables `a` and
 <codeblock id="datatypes_03e">
 
 - Make sure that all of the question marks (<code>?</code>) have been replaced by either values or operators
-- Remember that the modulus operator (<code>%</code>) calculates the remainder of dividing the left operand by the right operand
+- Remember that the modulus operator (<code>%</code>) returns the remainder of dividing the left operand by the right operand
 
 </codeblock>
 
