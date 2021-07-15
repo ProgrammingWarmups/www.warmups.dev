@@ -250,3 +250,26 @@ This will result in <code>b</code> having the value <code>3</code>.
 </exercise>
 
 <!-- EXERCISE } -->
+
+<!-- EXERCISE { -->
+
+<exercise id="7" title="Review: What Kind Of Values Can Be Stored In Variables?">
+
+- Primary Data Types 
+    - Python has numerous built-in types of data that can be stored in variables
+    - The primary data types, which are the basic building blocks of data in Python, are `int`, `float`, `str`, and `bool`
+    - The data type of a variable is automatically recognized when you assign its value
+- Arithmetic Operators
+    - Arithmetic operators (`+`, `-`, `*`, `/`, `**`, `%`, `//`) are used perform mathematical operations on numerical values
+    - Least common outside of computer science are the modulus operator, `%`, and the floor division operator, `//`
+    - The modulus operator divides the left operand by the right operand and returns the remainder
+    - The floor division operator divides the left operand by the right operand and rounds down to the closest integer
+- Assignment Operators
+    - When you want to add or subtract from a variable’s current value, you can use the `+=` or `-=` assignment operator, which assigns the left-hand variable to the value of itself plus or minus the right-hand value
+    - There are [numerous other assignment operators](https://www.w3schools.com/python/gloss_python_assignment_operators.asp) that can be used to simplify various operations in a similar fashion
+
+<br>
+
+</exercise>
+
+<!-- EXERCISE } -->
