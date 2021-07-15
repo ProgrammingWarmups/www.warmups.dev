@@ -116,12 +116,16 @@ Modulus and floor division are much less common outside of computer science, so 
 
 The modulus operator (`%`) divides the left operand by the right operand and returns the remainder.
 
+The example below demonstrates the difference between the division operator, which returns the actual result of dividing `7` by `2`, and the modulus operator, which returns the remainder of dividing `7` by `2`.
+
 <br>
 
 <codeblock id="datatypes_03b" interactive=false>
 </codeblock>
 
 The floor division operator (`//`) divides the left operand by the right operand and rounds down to the closest integer.
+
+As shown below, since the result of dividing `7` by `2` is `3.5`, using the floor division operator to divide `7` by `2` returns `3`, since `3` is the closest integer below `3.5`.
 
 <br>
 
