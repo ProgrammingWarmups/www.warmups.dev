@@ -8,20 +8,21 @@ Programming warmups, for developers
 
 # www.warmups.dev
 
-![](../../workflows/build/badge.svg) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gkapfham/www.warmups.dev/binder) [![Netlify Status](https://api.netlify.com/api/v1/badges/0a36441a-791b-40d0-a582-256dffd69514/deploy-status)](https://app.netlify.com/sites/warmups/deploys)
+![](../../workflows/build/badge.svg) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ProgrammingWarmups/www.warmups.dev/binder) [![Netlify Status](https://api.netlify.com/api/v1/badges/0a36441a-791b-40d0-a582-256dffd69514/deploy-status)](https://app.netlify.com/sites/warmups/deploys)
 
 ## Introduction
 
-Based on the [course framework](https://github.com/ines/spacy-course) that [Ines
-Montani](https://ines.io/) developed for her [spaCy
+**NOTE: We are no longer developing or maintaining this project**
+
+Based on the [course framework](https://github.com/ines/spacy-course) that
+[Ines Montani](https://ines.io/) developed for her [spaCy
 course](https://course.spacy.io), this repository contains the source code for
-the [www.warmups.dev](https://www.warmups.dev/) platform that offers developers
-the opportunity to master basic programming skills and rev up their minds. The
-front-end is powered by [Gatsby](http://gatsbyjs.org/) and
-[Reveal.js](https://revealjs.com) and the back-end code execution uses
-[Binder](https://mybinder.org). This web site will only work correctly if it has
-a build with [Binder](https://mybinder.org) for the current version of the
-`binder/requirements.txt` file.
+a platform that offers developers the opportunity to master basic programming
+skills and rev up their minds. The front-end is powered by
+[Gatsby](http://gatsbyjs.org/) and [Reveal.js](https://revealjs.com) and the
+back-end code execution uses [Binder](https://mybinder.org). This web site will
+only work correctly if it has a build with [Binder](https://mybinder.org) for
+the current version of the `binder/requirements.txt` file.
 
 ## Running the Site
 
