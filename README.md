@@ -47,3 +47,16 @@ the [Binder website](https://mybinder.org), as this gives you a detailed build
 log and feedback on whether everything worked as expected. Importantly, a push
 to the `binder` branch of this repository will automatically build and deploy a
 Binder image for use with the deployed version of the web site.
+
+## Adding a New Warmup
+
+1. Create a new Markdown (MD) document in `warmups/` by copying an existing
+warmup.
+2. Update the `title`, `description`, and `slug` fields in the frontmatter.
+`slug` is the path at which the warmup will be located on the site. It can
+usually just be the name of the warmup MD document. 
+3. Add the `slug` to `warmups/order.js` in the position it belongs.
+4. Within the new `warmups/` MD document, the `<codeblock>` elements
+should have an `id` that reflects the name of the MD document.
+5. When adding Python exercises in `exercises/`, use this `<codeblock>` `id` in
+the names of the corresponding starter, solution, and test files.

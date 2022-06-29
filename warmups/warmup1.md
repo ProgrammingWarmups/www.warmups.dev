@@ -1,11 +1,9 @@
 ---
-title: 'Warmup 1: What Happens When a Program Runs?'
+title: 'What Happens When a Program Runs?'
 description:
  'Investigate the static structure and dynamic behavior of a program'
-prev: null
-next: /warmup2
+slug: /warmup1
 type: chapter
-id: 1
 ---
 
 <!-- EXERCISE { -->
@@ -22,7 +20,7 @@ id: 1
 
 <hr>
 
-<codeblock id="01_01">
+<codeblock id="warmup1_01">
 
 - Fill in the `_` to record the program's output
 - Answer these questions as you study this program:
@@ -101,7 +99,7 @@ create new data."
 
 <hr>
 
-<codeblock id="01_03">
+<codeblock id="warmup1_03">
 
 - Fix the mistakes in the program so that it outputs `Mean: 5.0`
 - Answer these questions as you study this program:
@@ -171,7 +169,7 @@ No, this line of source code does not calculate the number of values in the list
 
 <hr>
 
-<codeblock id="01_05">
+<codeblock id="warmup1_05">
 
 - Fill in the `_` in `numbers = [_, _, _, _]` to make a new list of values
 - Fill in the `_` in `mean = _ / _` to compute the arithmetic mean

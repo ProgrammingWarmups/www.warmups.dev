@@ -20,7 +20,8 @@ async function onCreateNode({
 }) {
     const { createNodeField, createNode, createParentChildLink } = actions
     if (node.internal.type === 'MarkdownRemark') {
-        const slug = createFilePath({ node, getNode, basePath: 'chapters', trailingSlash: false })
+        const slug = node.frontmatter.slug || // If slug is defined in frontmatter, use it
+            createFilePath({ node, getNode, basePath: 'warmups', trailingSlash: false }) // Otherwise, create one
         createNodeField({ name: 'slug', node, value: slug })
     } else if (node.extension === 'py') {
         // Load the contents of the Python file and make it available via GraphQL
